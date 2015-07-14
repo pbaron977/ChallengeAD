@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM Challenge Project Package</comment>
+<entry key="createdBy">edwherre</entry>
+<entry key="name">challenge-demo-content</entry>
+<entry key="created">2015-07-14T15:09:26.917-0500</entry>
+<entry key="groupId">com.adobe.challenge</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">AEM Challenge</entry>
+<entry key="description">Maven Multimodule project for AEM Challenge Project.</entry>
+<entry key="artifactId">challenge-demo-content</entry>
+<entry key="path">/etc/packages/AEM Challenge/challenge-demo-content.zip</entry>
+</properties>
