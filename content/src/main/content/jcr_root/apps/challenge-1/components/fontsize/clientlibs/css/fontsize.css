@@ -1,0 +1,34 @@
+.button:
+	#button{
+	text-align:justify;
+	padding:10px;
+	background-color:#F0E68C;
+	font-size:12px;
+	}
+	#fontplus{
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+	}
+	#fontminus{
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 8px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+	}
+	#fontlinks{
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:0px;
+	margin-bottom:20px;
+	text-align:center;
+	}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="buildCount">1</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="dependencies" />
+<entry key="packageFormatVersion">2</entry>
+<entry key="description">AD Challenge 1 Package</entry>
+<entry key="group">Challenge Package</entry>
+<entry key="name">ad-challenge-1-content</entry>
+<entry key="path">/etc/packages/Challenge Package/ad-challenge-1-content-1.0-SNAPSHOT.zip</entry>
+</properties>

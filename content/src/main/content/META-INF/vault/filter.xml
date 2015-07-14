@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/challenge-1"/>
+    <filter root="/content/challenge-1"/>
+    <filter root="/etc/clientlibs/challenge-1"/>
+</workspaceFilter>
