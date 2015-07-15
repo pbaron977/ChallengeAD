@@ -2,4 +2,5 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/challenge"/>
     <filter root="/etc/clientlibs/challenge"/>
+    <filter root="/content/"/>
 </workspaceFilter>
