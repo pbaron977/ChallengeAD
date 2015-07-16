@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Todo Component Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Todo Page Component ">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <displayText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter text to be displayed"
+                        fieldLabel="Display Text"
+                        name="./displaytext"
+                        xtype="textfield"/>
+                    <buttonText
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Button"
+                        name="./button"
+                        xtype="textfield"/>
+                    <inputText
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Input Text"
+                        name="./placeholder"
+                        xtype="textfield"/>
+                    <pagination
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enable pagination"
+                        name="./pagination"
+                        xtype="checkbox">
+                        <listener
+                            jcr:primaryType="nt:unstructured"
+                            change="function(){ alert(&quot;You have selected a link in path field&quot;); }"
+                            check="function(){ alert(&quot;You have selected a link in path field&quot;); }"/>
+                    </pagination>
+                    <limitpag
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter limit of page"
+                        fieldLabel="paginate at"
+                        name="./pagination"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

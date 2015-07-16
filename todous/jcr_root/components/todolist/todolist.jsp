@@ -8,7 +8,7 @@
                     com.day.cq.wcm.commons.WCMUtils,
                     org.apache.jackrabbit.commons.JcrUtils"
                         %>
- 
+
 
 
 <div class="jumbotron text-center">
