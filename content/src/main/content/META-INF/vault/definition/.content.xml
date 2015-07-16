@@ -13,7 +13,7 @@
         <f0
             jcr:primaryType="nt:unstructured"
             mode="replace"
-            root="/apps/ChallengeAD2"
+            root="/apps/ChallengeAD"
             rules="[]"/>
     </filter>
 </jcr:root>

@@ -58,7 +58,7 @@
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>challenge-ad-bundle</artifactId>
-                            <target>/apps/ChallengeAD2/install</target>
+                            <target>/apps/ChallengeAD/install</target>
                         </embedded>
                     </embeddeds>
                     <targetURL>http://${crx.host}:${crx.port}/crx/packmgr/service.jsp</targetURL>
