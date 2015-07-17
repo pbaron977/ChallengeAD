@@ -10,9 +10,9 @@
     </style>
 
 <body>
-
-
-	<cq:include path="par" resourceType="foundation/components/parsys" />
-    <script="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <cq:include script="header.html"/>
+        <cq:include path="par" resourceType="foundation/components/parsys"/>
+        <script="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <cq:include script="footer.html"/>    
 </body>
 </html>

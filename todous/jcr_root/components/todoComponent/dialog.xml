@@ -9,7 +9,7 @@
         <items jcr:primaryType="cq:WidgetCollection">
             <tab1
                 jcr:primaryType="cq:Panel"
-                title="Todo Page Component ">
+                title="Todo Page Config">
                 <items jcr:primaryType="cq:WidgetCollection">
                     <displayText
                         jcr:primaryType="cq:Widget"
@@ -30,21 +30,44 @@
                     <pagination
                         jcr:primaryType="cq:Widget"
                         fieldLabel="Enable pagination"
-                        name="./pagination"
+                        name="./enable_pagination"
                         xtype="checkbox">
-                        <listener
+                        <listeners
                             jcr:primaryType="nt:unstructured"
-                            change="function(){ alert(&quot;You have selected a link in path field&quot;); }"
-                            check="function(){ alert(&quot;You have selected a link in path field&quot;); }"/>
+                            check="function(one, two){ &#xa;panel1=this.findParentByType(&quot;panel&quot;);&#xa;panel2=panel1.nextSibling();&#xa;if(!panel2.disabled){&#xa;panel2.disable();&#xa;}else{&#xa;panel2.enable();&#xa;}&#xa;&#xa; }"/>
                     </pagination>
-                    <limitpag
+                    <color
                         jcr:primaryType="cq:Widget"
-                        fieldDescription="Enter limit of page"
-                        fieldLabel="paginate at"
-                        name="./pagination"
-                        xtype="textfield"/>
+                        defaultValue="FFF"
+                        fieldLabel="Color"
+                        name="./color"
+                        xtype="colorfield">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            change="function(one, two, three){ &#xa;$(&quot;.container&quot;).css(&quot;background-color&quot;, two);&#xa; }"/>
+                    </color>
                 </items>
             </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                disabled="{Boolean}true"
+                title="Pagination">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <limitpag
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="999"
+                        fieldLabel="paginate at"
+                        name="./pagination"
+                        xtype="numberfield"/>
+                    <npagination
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="999"
+                        fieldDescription="Enter limit of page"
+                        fieldLabel="Max number of task"
+                        name="./maxtask"
+                        xtype="numberfield"/>
+                </items>
+            </tab2>
         </items>
     </items>
 </jcr:root>

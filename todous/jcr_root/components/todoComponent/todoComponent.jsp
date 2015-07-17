@@ -4,25 +4,32 @@
 <%@page session="false" %>
 <% %>
 <%
-// TODO add you code here
-%>
 
-<div class="jumbotron text-center">
+%>
+<div class="container component">
+<div class="page-header text-center">
 	<h1><%=properties.get("displaytext")%> <span class="label label-info todoscount">0</span></h1>
 </div>
 
         <!-- TODO LIST -->
         <div id="todo-list" class="row">
+
+            <div id="images"></div>
+            <div class="alert alert-danger alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span class="close" aria-hidden="true">&times;</span></button>
+              <strong>Warning!</strong> Max number of task reached.
+            </div>
             <div id="content" class="col-sm-4 col-sm-offset-4">
 
                 <!-- LOOP OVER THE TODOS IN $scope.todos -->
-                <div class="checkbox hide clonable">
+
+
+            </div>
+            <div class="checkbox hide clonable">
                     <label>
                         <input type="checkbox" > <span class="task">{{ todo.text }}</span>
                     </label>
                 </div>
-
-            </div>
 			<div class="col-sm-4 col-sm-offset-4">
                 <ul id='page_navigation' class="pagination text-center">
                     <li><a class="previous_link" href="#">Prev</a></li>
@@ -49,141 +56,132 @@
             </div>
         </div>
 
-<input type='hidden' id='current_page' value="<%=properties.get("pagination")%>"/>  
-<input type='hidden' id='show_per_page' />  
+	<input type='hidden' id='current_page' /> 
+    <input type='hidden' id='show_per_page' value="<%=properties.get("pagination")%>" />  
+    <input type='hidden' id='color' value="<%=properties.get("color")%>" />  
+    <input type='hidden' id='maxtask' value="<%=properties.get("maxtask")%>" />  
 
-
+</div>
 
 <script>
 
 
-
-$(document).ready(function(){
+$(document).ready(function() {
 
     $("#page_navigation").hide();
-
-        //how much items per page to show
-	var show_per_page = 3;
-	//getting the amount of elements inside content div
-	var number_of_items = $('#content').children().size();
-	//calculate the number of pages we are going to have
-	var number_of_pages = Math.ceil(number_of_items/show_per_page);
-
-	//set the value of our hidden input fields
-	$('#current_page').val(0);
-	$('#show_per_page').val(show_per_page);
-
-	//now when we got all we need for the navigation let's make it '
-
-	/*
-	what are we going to have in the navigation?
-		- link to previous page
-		- links to specific pages
-		- link to next page
-	*/
+    $(".alert").hide();
+    $('#current_page').val(0);
+	$(".container").not(".component").css("background-color",$("#color").val());
 
 
-    $(".previous_link").click(function(){
-		//get the number of items shown per page
+
+    function refresh(page_num) {
         var show_per_page = parseInt($('#show_per_page').val());
-		var page_num = parseInt($('#current_page').val())-1;
-
-        //get the element number where to start the slice from
         start_from = page_num * show_per_page;
-
-        //get the element number where to end the slice
         end_on = start_from + show_per_page;
 
-        //hide all children elements of content div, get specific items and show them
         $('#content').children().css('display', 'none').slice(start_from, end_on).css('display', 'block');
+        $('.page_link[longdesc=' + page_num + ']').addClass('active_page').siblings('.active_page').removeClass('active_page');
 
-        /*get the page link that has longdesc attribute of the current page and add active_page class to it
-        and remove that class from previously active page link*/
-        $('.page_link[longdesc=' + page_num +']').addClass('active_page').siblings('.active_page').removeClass('active_page');
-
-        //update the current page input field
         $('#current_page').val(page_num);
-        return false;
-    });
+    }
 
-    $(".next_link").click(function(){
-		//get the number of items shown per page
-        var show_per_page = parseInt($('#show_per_page').val());
-		var page_num = parseInt($('#current_page').val())+1;
+    $(".previous_link").click(function() {
 
-        //get the element number where to start the slice from
-        start_from = page_num * show_per_page;
-
-        //get the element number where to end the slice
-        end_on = start_from + show_per_page;
-
-        //hide all children elements of content div, get specific items and show them
-        $('#content').children().css('display', 'none').slice(start_from, end_on).css('display', 'block');
-
-        /*get the page link that has longdesc attribute of the current page and add active_page class to it
-        and remove that class from previously active page link*/
-        $('.page_link[longdesc=' + page_num +']').addClass('active_page').siblings('.active_page').removeClass('active_page');
-
-        //update the current page input field
-        $('#current_page').val(page_num);
-        return false;
-    });
-
-
-
-	function recalculate() {
-        var number_of_items = $('#content').children().size();
-        var number_of_pages = Math.ceil(number_of_items/show_per_page);
-
-
-         //hide all the elements inside content div  
-        $('#content').children().css('display', 'none');  
-
-        //and show the first n (show_per_page) elements  
-        $('#content').children().slice(0, show_per_page).css('display', 'block');  
-        size = $(".checkbox").length-1;
-        $(".todoscount").text(size);
-        if(size>show_per_page){
-			$("#page_navigation").show();
-        }else{
-			$("#page_navigation").hide();	
+        var page_num = parseInt($('#current_page').val()) - 1;
+        if(page_num>=0){
+	        refresh(page_num);
         }
-	}
+        return false;
+    });
 
-	$("input[type='checkbox']").change(function() {
+    $(".next_link").click(function() {
+		var show_per_page = parseInt($('#show_per_page').val());
+        var number_of_items = $('#content').children().size();
+        var number_of_pages = Math.ceil(number_of_items / show_per_page);
 
-        if(this.checked) {
-			$(this).parent().parent().remove();
+        var page_num = parseInt($('#current_page').val()) + 1;
+        if(page_num<number_of_pages){
+	        refresh(page_num);
+        }
+        return false;
+    });
+
+
+
+    function recalculate() {
+        var show_per_page = parseInt($('#show_per_page').val());
+        var number_of_items = $('#content').children().size();
+        var number_of_pages = Math.ceil(number_of_items / show_per_page);
+
+
+        //hide all the elements inside content div
+        $('#content').children().css('display', 'none');
+
+        //and show the first n (show_per_page) elements
+        $('#content').children().slice(0, show_per_page).css('display', 'block');
+        size = number_of_items;
+        $(".todoscount").text(size);
+        if (size > show_per_page) {
+            $("#page_navigation").show();
+        } else {
+            $("#page_navigation").hide();
+        }
+    }
+
+    $("input[type='checkbox']").change(function() {
+
+        if (this.checked) {
+            $(this).parent().parent().remove();
             recalculate()
         }
     });
-    $("form").submit(function(e){
-    	task=$("input:text").val();
-    	if(task.length != 0 ){
-			add=$(".clonable").clone(true);
-			add.removeClass("clonable hide");
+    $("form").submit(function(e) {
+		var number_of_items = $('#content').children().size();
+        var maxtask = parseInt($('#maxtask').val());
+        if(number_of_items < maxtask){
 
-            add.find(".task").text(task);
-            $(".checkbox").parent().append(add)
+            task = $("input:text").val();
+            if (task.length != 0) {
+                addTask(task);
 
+            }
+            $("input:text").val("");
+            recalculate()
+        }else{
+            $(".alert").show();
+            $(".alert").fadeOut(2500);
         }
-		$("input:text").val("");
-		recalculate()
 
-		return false;
+        return false;
     });
+
+    function addTask(text){
+        add = $(".clonable").clone(true);
+        add.removeClass("clonable hide");
+        add.css("color","white");
+        add.css("padding","32px");
+
+        add.find(".task").text(text);
+
+		var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+        $.getJSON( flickerAPI,
+                  {
+                        tags: text,
+                        tagmode: "any",
+                        format: "json"
+                    }).done(function( data ) {
+                    	$.each( data.items, function( i, item ) {
+                            add.css( "background-image", "url("+item.media.m+")" );
+                            if ( i === 0 ) {
+                                return false;
+                            }
+                        });
+        			});
+
+
+        $("#content").append(add);
+    }
+
 });
-
 </script>
-
-<!-- <html>
-<head><title>Link Components</title>
-<script>
-
-</script>
-</head>
-<body>
-	<p><%=properties.get("linkpage")%></p>
-    <p><%=properties.get("select")%></p>
-</body>
-</html> -->
