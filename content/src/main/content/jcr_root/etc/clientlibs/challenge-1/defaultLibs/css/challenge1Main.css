@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    padding: 20px;
+}
+
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.cover.playing {
+    border: 2px solid #e45343;
+}
+
+.header-footer{
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+
+.contentHeader{
+    font-size: 50px;
+}
+
+.contentFooter{
+    font-size: 20px;
+}
+
+#controls{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#btnClearCompleted{
+    margin-left: 20%;
+}
+
+#total{
+    margin-right: 10%;
+}

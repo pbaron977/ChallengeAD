@@ -7,5 +7,5 @@
     ranking="{Long}1">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="challenge-1/components/page/contentpage"/>
+        sling:resourceType="challenge-1/components/contentpage"/>
 </jcr:root>

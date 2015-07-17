@@ -9,18 +9,21 @@
     <rep:policy/>
     <launches/>
     <campaigns/>
-    <community-components/>
     <catalogs/>
-    <geometrixx/>
-    <geometrixx_mobile/>
-    <geometrixx-outdoors/>
-    <geometrixx-outdoors-mobile/>
-    <communities/>
-    <phonegap/>
-    <geometrixx-media/>
     <publications/>
-    <geometrixx-gov/>
-    <forms/>
     <projects/>
-    <challenge-1/>
+    <forms/>
+    <datsun-dev/>
+    <nissan-dev/>
+    <renault-dev/>
+    <infiniti-dev/>
+    <dacia-dev/>
+    <renault/>
+    <renault_tck/>
+    <dacia/>
+    <nissan/>
+    <infiniti/>
+    <nissan_demo/>
+    <todo/>
+    <hookers/>
 </jcr:root>

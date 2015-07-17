@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <prop1
+                jcr:primaryType="cq:Panel"
+                title="Content">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Placeholder for the input"
+                        fieldLabel="List title placeholder:"
+                        name="./placeholderText"
+                        xtype="textfield"/>
+                    <itemsLeft
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label for the items left"
+                        fieldLabel="Items left label:"
+                        name="./itemsLetfLabel"
+                        xtype="textfield"/>
+                    <enablePagination
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enable pagination of todo list"
+                        fieldLabel="Enable pagination:"
+                        name="./enablePagination"
+                        xtype="checkbox"/>
+                </items>
+            </prop1>
+            <tab1
+                jcr:primaryType="cq:Panel"
+                border="true"
+                title="Page Style">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <background-color
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Choose background color of page"
+                        fieldLabel="Background color"
+                        name="./backgroundColor"
+                        xtype="colorfield"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

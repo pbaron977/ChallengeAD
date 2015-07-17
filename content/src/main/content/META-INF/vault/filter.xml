@@ -3,4 +3,5 @@
     <filter root="/apps/challenge-1"/>
     <filter root="/content/challenge-1"/>
     <filter root="/etc/clientlibs/challenge-1"/>
+    <filter root="/etc/designs/challenge-1"/>
 </workspaceFilter>
