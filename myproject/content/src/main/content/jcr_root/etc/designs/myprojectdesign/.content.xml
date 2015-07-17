@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-17T14:56:51.916-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Myproject Design"
+        sling:resourceType="wcm/core/components/designer">
+        <page-content jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2015-07-17T10:50:57.365-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="/apps/myproject/components/todo"
+                drawAnchors="true">
+                <section
+                    jcr:primaryType="nt:unstructured"
+                    div.padding="80px 0 60px 0"/>
+            </par>
+            <logo
+                jcr:lastModified="{Date}2015-07-17T14:56:51.914-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/logo"
+                fileReference="/content/dam/geometrixx/todo.jpg"
+                imageRotate="0">
+                <file/>
+            </logo>
+        </page-content>
+    </jcr:content>
+    <images/>
+    <static.css/>
+    <static2.css/>
+    <static3.css/>
+</jcr:root>

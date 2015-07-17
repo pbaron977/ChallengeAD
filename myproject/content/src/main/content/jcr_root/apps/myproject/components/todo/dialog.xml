@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="App labels dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Edit body">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the todo activity"
+                        fieldLabel="Placeholder text"
+                        name="./placeholder"
+                        xtype="textfield"/>
+                    <itemsleft
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the label for the items left property"
+                        fieldLabel="Items left Label"
+                        name="./itemsleft"
+                        xtype="textfield"/>
+                    <cta
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the CTA Label"
+                        fieldLabel="CTA Label"
+                        name="./cta"
+                        xtype="textfield"/>
+                    <opt1
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label for All activities button"
+                        fieldLabel="All activities"
+                        name="./opt1"
+                        xtype="textfield"/>
+                    <opt2
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label for Active activities button"
+                        fieldLabel="Active"
+                        name="./opt2"
+                        xtype="textfield"/>
+                    <opt3
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label for Completed activities button"
+                        fieldLabel="Completed"
+                        name="./opt3"
+                        xtype="textfield"/>
+                    <type
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Selected by default"
+                        name="./type"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <def
+                                jcr:primaryType="nt:unstructured"
+                                text="(default)"
+                                value=""/>
+                            <small
+                                jcr:primaryType="nt:unstructured"
+                                text="All"
+                                value="option1"/>
+                            <large
+                                jcr:primaryType="nt:unstructured"
+                                text="Active"
+                                value="option2"/>
+                            <xl
+                                jcr:primaryType="nt:unstructured"
+                                text="Completed"
+                                value="option3"/>
+                        </options>
+                    </type>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

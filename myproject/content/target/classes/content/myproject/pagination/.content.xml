@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-15T18:23:13.373-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/myproject/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Pagination"
+        sling:resourceType="myproject/components/page-content">
+        <title
+            jcr:description="description page subtitle"
+            jcr:lastModified="{Date}2015-07-15T16:51:22.987-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/training-title"
+            custom-title="windows title myproject"/>
+        <footer
+            jcr:description="this is the description dd"
+            jcr:lastModified="{Date}2015-07-15T18:23:13.370-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/footer"
+            custom-title="[Deiver rovira sanchez d]"/>
+        <company
+            jcr:lastModified="{Date}2015-07-15T16:39:53.028-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/footer"
+            custom-title="[p1,p2]"/>
+    </jcr:content>
+</jcr:root>
