@@ -40,9 +40,18 @@
 
 
             function nextTODO(){
-                var siguiente = $('#registros tr:last-child td:first-child').text();
+                var next = $('#registros tr:last-child td:first-child').text();
                 clearData();
-                queryTODORows(siguiente,5);
+                queryTODORows(next,5);
+            }
+
+            function previousTODO(){
+                var previous = $('#registros tr:nth-child(2) td:first-child').text();
+                previous = (previous -1);
+                if(previous > 0){
+					clearData();
+	                queryTODORows((previous-5),5);
+                }
             }
         </script>
     </head>
@@ -54,6 +63,7 @@
         <div id="body">
             <table id="registros">
             </table>
+            <a onclick="previousTODO();">previous</a>
             <a onclick="nextTODO();">next</a>
         </div>
         <div id="footer">
