@@ -3,40 +3,46 @@
 
 %>
 
-<div class="grid_12">
-    <div class="promo">
-        <cq:include path="main-header-text" resourceType="foundation/components/text"/>
-    </div>
-</div>
+      <div class="jumbotron">
+        <h1 class="main-sub">
+            <cq:include path="main-header-text" resourceType="foundation/components/text"/>
+        </h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      </div>
 
-    <section id="todoapp" class="grid_12">
-            <header id="header">
-                <div id="headerBand"></div>
-                <cq:include path="place-par" resourceType="foundation/components/parsys"/>
-            </header>
-            <section id="main">
-                <div id="todo-list">
-                    <div class="templateWrapper" >
-                        <div class="templateContainer">
-                            <h3 class="templateAddress">Algo Aca</h3>
-                            <button class="templateLeft templateToggle" ></button>
-                            <button class="templateLeft templateRemove" ></button>
-                        </div>
-                        <div class="templateBorder"></div>
-                    </div>
-                    <div class="templateWrapper" >
-                         <div class="templateContainer">
-                              <h3 class="templateAddress">Algo mas</h3>
-                              <button class="templateLeft templateToggle" ></button>
-                              <button class="templateLeft templateRemove" ></button>
-                         </div>
-                         <div class="templateBorder"></div>
-                    </div>
-                </div>
-            </section>
-    </section>
-     <section class="grid_12">
-            <cq:include path="main-par" resourceType="foundation/components/parsys"/>
-     </section>
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <h4>New Task</h4>
+          <cq:include path="place-par" resourceType="foundation/components/parsys"/>
+
+          <h4>Music</h4>
+          <div class="container-fluid">
+            <div class="row">
+              <ul class="list-unstyled">
+                   <li>
+                       <div class="checkbox">
+                         <label>
+                           <input type="checkbox" value="">
+                           Option one is this and that&mdash;be sure to include why it's great
+                         </label>
+                       </div>
+                   </li>
+                    <li>
+                       <div class="checkbox">
+                         <label>
+                            <input type="checkbox" value="">
+                            Option one is this and that&mdash;be sure to include why it's great
+                         </label>
+                       </div>
+                    </li>
+              </ul>
+            </div>
+          </div>
+
+          <h4>Global Controllers</h4>
+          <cq:include path="main-par" resourceType="foundation/components/parsys"/>
+        </div>
+      </div>
 
 

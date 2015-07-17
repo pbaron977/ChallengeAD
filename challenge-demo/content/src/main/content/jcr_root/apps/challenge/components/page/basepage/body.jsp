@@ -1,25 +1,23 @@
 <%@include file="/apps/challenge/global/global.jsp"%><%
 %><%@page session="false" %><%
 %>
-<body>
-    <div class="container_12">
-        <header class="header clearfix">
-             <cq:include script="header.jsp"/>
-        </header>
+  <body id="bodyAll">
 
-        <hr/>
+    <div class="container">
 
-        <div class="page-content">
-           <cq:include script="main.jsp"/>
-        </div>
+      <div class="header clearfix">
+        <cq:include script="header.jsp"/>
+      </div>
 
-        <hr/>
+      <cq:include script="main.jsp"/>
 
-        <footer class="footer clearfix">
-             <cq:include script="footer.jsp"/>
-        </footer>
+      <footer class="footer">
+        <cq:include script="footer.jsp"/>
+      </footer>
 
-    </div>
+    </div> <!-- /container -->
 
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <cq:includeClientLib js="challenge.all"/>
-</body>
+  </body>

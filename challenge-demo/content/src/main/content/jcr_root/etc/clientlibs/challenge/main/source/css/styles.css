@@ -1,263 +1,84 @@
-/* reset layout*/
-html,
+/* Space out content a bit */
 body {
-    margin: 0;
-    padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-/* body*/
-body {
-    background: #F7f7f7;
-    color: #4d4d4d;
-    width: 100%;
-    margin: 0 auto;
-}
-
-/* no outline for buttons & checkboxes*/
-button,
-input[type="checkbox"] {
-    outline: none;
-}
-
-
-h1 {
-  font-size: 3em;
-}
-
-.header {
-  padding: 2em 0 1em 0;
-}
-
-.header .logo {
-  color: #0756A4;
-  font-size: 3em;
-}
-
-.header .nav {
-  text-align: right;
-  margin-top: 2em;
-}
-
-.header .nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0 2em 1em 0;
-}
-
-.header .nav li {
-  display: inline;
-}
-
-.promo {
-  color: #fff;
-  font-size: 3em;
-  text-align: center;
-  background-color: #0756A4;
-  padding: 2em 0;
-  margin-bottom: 1em
-}
-
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
 .footer {
-  margin-bottom: 2em;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-
-
-/* section styles*/
-@media (min-width: 550px) {
-    #todoapp {
-        width: 74vw;
-        bottom: 20px;
-    }
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
 }
 
-#todoapp {
-    background: rgba(255, 255, 255, 0.9);
-    position: relative;
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
 }
 
-/* the 2 red rulers*/
-#todoapp:before {
-    content: '';
-    border-style: solid;
-    border-left-color: rgba(242, 103, 103, 1);
-    border-right-color: rgba(242, 103, 103, 1);
-    border-width: 1px;
-    z-index: 2;
-    width: 2px;
-    position: absolute;
-    top: 0;
-    left: 40px;
-    height: 100%;
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
 }
 
-/* dark band on the header*/
-#headerBand {
-    position: relative;
-    height: 4vh;
-    max-height: 20px;
-    border-bottom: 1px solid #6c615c;
-    background: rgba(52, 59, 69, 1);
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
 }
 
-/* the new to-do entry*/
-#new-todo {
-    background: rgba(237, 237, 237, 0.9);
-    position: relative;
-    margin: 0;
-    height: 10vh;
-    max-height: 70px;
-    font-size: 21px;
-    font-family: "Arial";
-    border: 0;
-    outline: none;
-    color: rgb(114, 115, 115);
-    padding: 0 0 0 56px;
-    width: 100%;
-    box-sizing: border-box;
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
 }
 
-/* the main section that hosts the listview*/
-#main {
-    position: relative;
-    z-index: 1;
-    border-top: 1px dotted #adadad;
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
 }
 
-/*todo list*/
-#todo-list {
-    height: 86vh;
-    min-height: calc(100vh - 90px);
-    margin: 0px;
-    overflow-y: auto;
-}
-
-/*the host template*/
-.templateWrapper {
-    position: relative;
-    overflow: hidden;
-}
-
-.templateBorder {
-    height: 0;
-    border-bottom: 2px solid #bfdbf2;
-}
-
-/* container for the todo-address div*/
-.templateContainer {
-    width: calc(100% - 50px);
-    margin: 4px 5px 0px 45px;
-}
-
-.templateContainer input[type="text"] {
-    font-size: 18px;
-    font-family: "Arial";
-    background: none;
-    color: #2d3239;
-    border: 1px solid rgba(0, 0, 0, 0);
-    line-height: 0.6em;
-    margin: 0px;
-    width: calc(100% - 10px);
-    display: block;
-    padding: 4px 0px 4px 10px;
-}
-
-.templateContainer input[type="text"]:active,
-.templateContainer input[type="text"]:focus {
-    color: #2d3239;
-    border: 1px solid #b2b2b2;
-    outline: none;
-    margin-left: 2px;
-    text-decoration: none !important;
-    padding-left: 8px;
-}
-
-input[type="text"]:active ~ .templateRemove,
-input[type="text"]:focus ~ .templateRemove,
-.templateRemove:active,
-.templateRemove:focus {
-    display: inline-block;
-}
-
-input[type="text"]:active ~ .templateToggle,
-input[type="text"]:focus ~ .templateToggle,
-.templateRemove:active ~ .templateToggle,
-.templateRemove:focus ~ .templateToggle {
-    display: none;
-}
-
-.crossedOut.templateTitle {
-    text-decoration: line-through;
-}
-
-.templateContainer .templateAddress {
-    color: #727272;
-    font-size: 12px;
-    font-family: "Arial";
-    padding-top: 0px;
-    margin: 0px 0px 10px 11px;
-    font-weight: normal;
-}
-
-.templateContainer p {
-    margin: 0px 0px 4px 0px;
-}
-
-/* checkbox on the templated item*/
-.templateLeft {
-    position: absolute;
-    top: 6px;
-    left: 5px;
-    border: none;
-    width: 29px;
-    height: 29px;
-    min-width: 0;
-    min-height: 0;
-}
-
-/* button for remove*/
-.templateRemove {
-    display: none;
-    background-image: url('http://go.microsoft.com/fwlink/?LinkID=403181');
-}
-
-button {
-    background-color: transparent;
-}
-
-button.checked {
-    background-image: url('http://go.microsoft.com/fwlink/?LinkID=403179');
-}
-
-button.unchecked {
-    background-image: url('http://go.microsoft.com/fwlink/?LinkID=403180');
-}
-
-/* Todo Controls*/
-
-.main-controls div {
-    display: inline-block;
-}
-
-.clearcompleted {
-    float: right;
-    padding: 1em;
-}
-
-.itemsleft {
-    float: left;
-    padding: 1em;
-}
-
-.center-controls {
-    padding: 1em;
-    margin-left: 25%;
-}
-
-.btn-control{
-    border: 1px solid;
-    padding: 1em;
-    margin: 0.2em;
+.main-sub div p{
+    font-size: 63px;
+    color: inherit;
 }

@@ -14,6 +14,12 @@
                 title="Content"
                 xtype="panel">
             <items jcr:primaryType="cq:WidgetCollection">
+                <bgColor jcr:primaryType="cq:Widget"
+                         fieldLabel = "Background Color"
+                         showHexValue="{Boolean}true"
+                         name="./bgColor"
+                         applyToMarkup="body"
+                         xtype="colorfield"/>
                 <itemsleft jcr:primaryType="cq:Widget"
                           fieldLabel = "Items Left Label"
                           name="./itemsleft"

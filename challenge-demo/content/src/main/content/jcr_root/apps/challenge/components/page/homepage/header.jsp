@@ -2,11 +2,14 @@
 %><%@page session="false"%><%
 %>
 
-            <div class="grid_4 logo">
-                 <cq:include path="logo-text" resourceType="foundation/components/text"/>
-            </div>
-            <div class="grid_8 nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </div>
+
+<nav>
+  <ul class="nav nav-pills pull-right">
+   		<li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">About</a></li>
+        <li role="presentation"><a href="#">Contact</a></li>
+  </ul>
+</nav>
+ <h3 class="text-muted">
+     <cq:include path="logo-text" resourceType="foundation/components/text"/>
+</h3>

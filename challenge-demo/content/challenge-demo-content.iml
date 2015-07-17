@@ -10,5 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="challenge-demo-bundle" />
+    <orderEntry type="library" name="Maven: org.apache.sling:org.apache.sling.commons.json:2.0.10" level="project" />
   </component>
 </module>

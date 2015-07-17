@@ -9,5 +9,9 @@
 %>
 
 <%-- Component Presentation --%>
-<input id="new-todo" placeholder="<%= placeh %>" autofocus>
-
+<div class="row">
+ <div class="col-xs-10">
+    <input id="new-todo" class="form-control input-lg" type="text" placeholder="<%= placeh %>" autofocus>
+ </div>
+ <button type="button" class="btn btn-success btn-lg">Add</button>
+</div>

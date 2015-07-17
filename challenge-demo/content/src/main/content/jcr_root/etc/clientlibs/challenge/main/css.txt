@@ -1,5 +1,4 @@
 #base=source/css
-reset.css
-text.css
-960.css
+bootstrap.min.css
+bootstrap-theme.min.css
 styles.css
