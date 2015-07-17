@@ -3,4 +3,5 @@
     jcr:description="Componente de página principal."
     jcr:primaryType="cq:Component"
     jcr:title="page"
-    sling:resourceSuperType="wcm/foundation/components/page"/>
+    sling:resourceSuperType="foundation/components/page"
+    componentGroup=".hidden"/>
