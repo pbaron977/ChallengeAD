@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="ChallengeBodyComponent"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                id="todo"
+                title="Todo configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Placeholder text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./placeholder"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <itemsleft
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Items left text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./itemsleft"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <all
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="All text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./all"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <active
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Active text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./active"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <completed
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Completed text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./completed"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <Copy_x0020_of_x0020_completed
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Clear completed text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./clear"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <status
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldDescription=""
+                        fieldLabel="Selected status"
+                        fieldSubLabel=""
+                        name="./status"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <all
+                                jcr:primaryType="cq:Widget"
+                                qtip="All"
+                                text="All"
+                                value="All"/>
+                            <active
+                                jcr:primaryType="cq:Widget"
+                                qtip="Active"
+                                text="Active"
+                                value="Active"/>
+                            <completed
+                                jcr:primaryType="cq:Widget"
+                                qtip="Completed"
+                                text="Completed"
+                                value="Completed"/>
+                        </options>
+                    </status>
+                    <pagination
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="true"
+                        fieldDescription=""
+                        fieldLabel="Enable pagination"
+                        fieldSubLabel=""
+                        name="./pagination"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadContent="function() {&#xa;  var parent = this.findParentByType( &quot;tabpanel&quot; );&#xa;  var tab = parent.getItem( &quot;pagination&quot; );&#xa;&#xa;  if ( &quot;true&quot; != this.getValue() )&#xa;    tab.disable();&#xa;  else&#xa;    tab.enable();&#xa;}"
+                            selectionChanged="function() {&#xa;  var parent = this.findParentByType( &quot;tabpanel&quot; );&#xa;  var tab = parent.getItem( &quot;pagination&quot; );&#xa;&#xa;  if ( &quot;true&quot; != this.getValue() )&#xa;    tab.disable();&#xa;  else&#xa;    tab.enable();&#xa;}"/>
+                    </pagination>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                id="pagination"
+                title="Pagination configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <taskspp
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Tasks per page"
+                        grow="false"
+                        hideLabel="false"
+                        name="./taskspp"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="numberfield"/>
+                    <limitmax
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="true"
+                        fieldDescription=""
+                        fieldLabel="Limit max number of tasks"
+                        fieldSubLabel=""
+                        name="./limitmax"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadContent="function() {&#xa;  var parent = this.findParentByType( &quot;tabpanel&quot; );&#xa;  var fields = parent.findByType( &quot;numberfield&quot; );&#xa;  var maxfld = fields[1];&#xa;&#xa;  if ( &quot;true&quot; != this.getValue() )&#xa;    maxfld.disable();&#xa;  else&#xa;    maxfld.enable();&#xa;}&#xa;"
+                            selectionChanged="function() {&#xa;  var parent = this.findParentByType( &quot;tabpanel&quot; );&#xa;  var fields = parent.findByType( &quot;numberfield&quot; );&#xa;  var maxfld = fields[1];&#xa;&#xa;  if ( &quot;true&quot; != this.getValue() )&#xa;    maxfld.disable();&#xa;  else&#xa;    maxfld.enable();&#xa;}&#xa;"/>
+                    </limitmax>
+                    <max
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Max number of tasks"
+                        grow="false"
+                        hideLabel="false"
+                        name="./max"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="numberfield"/>
+                </items>
+            </tab2>
+        </items>
+    </items>
+</jcr:root>

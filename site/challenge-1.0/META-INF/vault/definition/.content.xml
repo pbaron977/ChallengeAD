@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2015-07-17T19:11:48.358Z"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2015-07-17T19:11:48.358Z"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="2"
+    builtWith="Adobe Experience Manager-6.0.0.SP2"
+    group="my_packages"
+    lastUnwrapped="{Date}2015-07-17T19:11:48.358Z"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2015-07-17T19:11:48.358Z"
+    lastWrappedBy="admin"
+    name="challenge"
+    version="1.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/challenge"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/todo"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-17T19:04:29.853Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/challenge/templates/ChallengeTemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ChallengeIndex"
+        sling:resourceType="/apps/challenge/components/ChallengeComponent"
+        navTitle="Backend Challenge">
+        <headerChallenge
+            jcr:lastModified="{Date}2015-07-17T18:38:56.603Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="challenge/components/ChallengeHeaderComponent"
+            color="3366FF"
+            text="&lt;p style=&quot;text-align: center;&quot;>TODO&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <footerChallenge
+            jcr:lastModified="{Date}2015-07-17T18:39:17.736Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="challenge/components/ChallengeFooterComponent"
+            color="3366FF"
+            text="&lt;p style=&quot;text-align: center;&quot;>By Victor Ortiz&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <bodyChallenge
+            jcr:lastModified="{Date}2015-07-17T19:04:29.846Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="challenge/components/ChallengeBodyComponent"
+            active="Activas"
+            all="Todas"
+            clear="Eliminar completas"
+            completed="Completas"
+            itemsleft="\{0} tareas pendientes"
+            limitmax="true"
+            max="10"
+            pagination="true"
+            placeholder="Que tareas faltan por hacer?"
+            status="All"
+            taskspp="10"/>
+    </jcr:content>
+</jcr:root>
