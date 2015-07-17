@@ -1,73 +1,20 @@
-<%@include file="/libs/foundation/global.jsp"%>
-<cq:includeClientLib categories="cq.jquery"/>
+<%--
+
+  test component.
+
+  this is the test
+
+--%><%
+%><%@include file="/libs/foundation/global.jsp"%><%
+%><%@page session="false" %><%
+%><%
+	// TODO add you code here
+%>
+<cq:include script="/libs/wcm/core/components/init/init.jsp"/>
 <html>
-    <head>
-        <script>
-            $(document).ready(function() {
-				queryTODORows(-1,5);
-			});
-
-            function queryTODORows(first, pageSize){
-                $.ajax({
-         			type: 'POST',    
-         			url:'/bin/challange',
-         			data:'first='+first+'&pageSize='+pageSize+'&state=TODO',
-         			dataType: 'json',
-         			success: function(msg){
-	                    addHeader();
-                    	$.each(msg, function(i, item) {
-							$.each(item, function(idx, row) {
-			                    data = jQuery.parseJSON(row);
-			                    $("#registros").append('<tr><td>'+data.id+'</td><td>'+data.nam+'</td><tr>');
-                			});
-                    	});
-            			var empty_tr = $('#registros').find('tr:empty');
-            			if ( empty_tr.length > 0 ) $(empty_tr).remove();
-         			},
-         			error: function(msg){
-         				alert('Error');
-         			}
-     			});
-            }
-
-            function addHeader(){
-                $("#registros").append('<tr><td>ID</td><td>NAME</td></tr>');
-            }
-
-            function clearData(){
-                $("#registros").children().remove()
-            }
-
-
-            function nextTODO(){
-                var next = $('#registros tr:last-child td:first-child').text();
-                clearData();
-                queryTODORows(next,5);
-            }
-
-            function previousTODO(){
-                var previous = $('#registros tr:nth-child(2) td:first-child').text();
-                previous = (previous -1);
-                if(previous > 0){
-					clearData();
-	                queryTODORows((previous-5),5);
-                }
-            }
-        </script>
-    </head>
     <body>
-        <h1>Titulo</h1>
-        <div id="header">
-			Este es el header
-        </div>
-        <div id="body">
-            <table id="registros">
-            </table>
-            <a onclick="previousTODO();">previous</a>
-            <a onclick="nextTODO();">next</a>
-        </div>
-        <div id="footer">
-            Este es el pie de pagina
-        </div>
+        <cq:include path="head" resourceType="TODO/components/header" />
+        <cq:include path="par" resourceType="foundation/components/parsys" />
+        <cq:include path="footer" resourceType="TODO/components/footer" />
     </body>
 </html>
