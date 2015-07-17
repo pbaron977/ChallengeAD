@@ -6,3 +6,4 @@
     currentDesign.writeCssIncludes(pageContext); %>
 
 <cq:includeClientLib css="challenge.main"/>
+<cq:includeClientLib js="challenge.components"/>

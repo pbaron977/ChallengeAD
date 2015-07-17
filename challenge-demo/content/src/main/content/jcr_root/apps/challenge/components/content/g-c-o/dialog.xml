@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          activeTab="0"
+          title="Global Control Options"
+          xtype="tabpanel"
+        >
+    <listeners
+            jcr:primaryType="nt:unstructured"
+            render="function() { this.hideTabStripItem('tab2'); }"/>
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+                jcr:primaryType="cq:Widget"
+                title="Content"
+                xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <itemsleft jcr:primaryType="cq:Widget"
+                          fieldLabel = "Items Left Label"
+                          name="./itemsleft"
+                          xtype="textfield"/>
+                <allcontrol jcr:primaryType="cq:Widget"
+                           fieldLabel = "All Control Label"
+                           name="./allcontrol"
+                           xtype="textfield"/>
+                <activecontrol jcr:primaryType="cq:Widget"
+                           fieldLabel = "Active Control Label"
+                           name="./activecontrol"
+                           xtype="textfield"/>
+                <completedcontrol jcr:primaryType="cq:Widget"
+                           fieldLabel = "Completed Control Label"
+                           name="./completedcontrol"
+                           xtype="textfield"/>
+                <clearcompleted jcr:primaryType="cq:Widget"
+                        fieldLabel = "Clear Completed Label"
+                        name="./clearcompleted"
+                        xtype="textfield"/>
+                <type
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Default Option"
+                        name="./type"
+                        type="select"
+                        xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <def
+                                jcr:primaryType="nt:unstructured"
+                                text="(default)"
+                                value="all"/>
+                        <all
+                                jcr:primaryType="nt:unstructured"
+                                text="All"
+                                value="all"/>
+                        <active
+                                jcr:primaryType="nt:unstructured"
+                                text="Active"
+                                value="active"/>
+                        <completed
+                                jcr:primaryType="nt:unstructured"
+                                text="Completed"
+                                value="completed"/>
+                    </options>
+                </type>
+                <enablepag jcr:primaryType="cq:Widget"
+                          fieldLabel = "Enable Pagination"
+                           defaultValue="{Boolean}false"
+                          name="./enablepag"
+                          xtype="checkbox">
+
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            check="function( checkbox, isChecked){
+                                   var tabpanel = checkbox.findParentByType('tabpanel');
+                                   isChecked ? tabpanel.unhideTabStripItem('tab2') : tabpanel.hideTabStripItem('tab2');
+                            }"/>
+
+                </enablepag>
+
+            </items>
+        </tab1>
+        <tab2 jcr:primaryType="cq:Widget"
+              title="Pagination"
+              id="tab2"
+              xtype="panel">
+
+            <listeners
+                    jcr:primaryType="nt:unstructured"
+                    render="function() { this.findParentByType('tabpanel').hideTabStripItem(tab2); }"/>
+
+            <items jcr:primaryType="cq:WidgetCollection">
+                <perpage jcr:primaryType="cq:Widget"
+                           fieldLabel = "Task per page"
+                           name="./perpage"
+                           xtype="numberfield"/>
+                <checkmax jcr:primaryType="cq:Widget"
+                            defaultValue="{Boolean}false"
+                            fieldLabel = "Limit max number of task"
+                            name="./checkmax"
+                            xtype="checkbox">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            check="function( checkbox, isChecked){ console.log('entro');var tab = checkbox.findParentByType('panel');
+                                                    console.log(checkbox.findParentByType('panel'));
+                                                  var maxnumber = tab.findById('maxn');
+                                                  console.log(maxnumber);
+                                                  isChecked ? maxnumber.enable() : maxnumber.disable();
+                                                  }"/>
+                </checkmax>
+
+                <maxnumber jcr:primaryType="cq:Widget"
+                               id = "maxn"
+                               itemId = "maxn"
+                               disabled="{Boolean}true"
+                               fieldLabel = "Max number of task"
+                               name="./maxnumber"
+                               xtype="numberfield"/>
+            </items>
+
+        </tab2>
+    </items>
+</jcr:root>
