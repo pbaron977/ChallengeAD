@@ -38,10 +38,28 @@
     font-size: 12px;
   }
 
+  .configTableSelected {
+    font-weight: 900;
+  }
+
   .todoTableNewTd {
     height: 50px;
+    text-align: right;
     font-size: 20px;
     font-style: italic;
+  }
+
+  .todoTableNewTdText {
+    height: 45px;
+    width: 97%;
+    border: 0;
+    background-color: rgba( 0, 0, 0, 0 );
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .todoTableNewTdText:focus {
+    outline-width: 0;
   }
 
   .todoTableDoneTd {
@@ -53,7 +71,7 @@
   <p>
     <table class='todoTable'>
       <tr>
-        <td class='todoTableNewTd'><input type='checkbox' name='task_1' value='task_1'><%=properties.get( "placeholder", "What needs to be done?" )%></td>
+        <td class='todoTableNewTd'><input class="todoTableNewTdText" type='text' placeholder='<%=properties.get( "placeholder", "What needs to be done?" )%>'></td>
       </tr>
       <tr>
         <td><input type='checkbox' name='task_2' value='task_2'>Clean room</td>
@@ -68,17 +86,17 @@
     <br/>
     <table class='configTable'>
       <tr>
-          <td width='34%'><%=properties.get( "itemsleft", "{0} items left" )%></td>
+        <td width='34%'><%=properties.get( "itemsleft", "{0} items left" )%></td>
         <td width='33%'>
           <table class='configTable'>
             <tr>
-              <td width='33%'><input type='button' name='<%=properties.get( "all", "All" )%>' value='<%=properties.get( "all", "All" )%>'/></td>
-              <td width='33%'><input type='button' name='<%=properties.get( "active", "Active" )%>' value='<%=properties.get( "active", "Active" )%>'/></td>
-              <td width='34%'><input type='button' name='<%=properties.get( "completed", "Completed" )%>' value='<%=properties.get( "completed", "Completed" )%>'/></td>
+              <td width='33%'><a id='All'><%=properties.get( "all", "All" )%></a></td>
+              <td width='33%'><a id='Active'><%=properties.get( "active", "Active" )%></a></td>
+              <td width='34%'><a id='Completed'><%=properties.get( "completed", "Completed" )%></a></td>
             <tr>
           </table>
         </td>
-        <td width='34%'><input type='button' name='<%=properties.get( "clear", "Clear completed" )%>' value='<%=properties.get( "clear", "Clear completed" )%>'/></td>
+        <td width='34%'><a id='Clear'><%=properties.get( "clear", "Clear completed" )%></a></td>
       </tr>
     </table>
   </p>
