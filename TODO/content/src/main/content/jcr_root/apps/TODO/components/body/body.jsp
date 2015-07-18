@@ -1,3 +1,4 @@
+<%@include file='/libs/foundation/global.jsp'%>
 <script>
             $(document).ready(function() {
 				queryTODORows(-1,5);
@@ -51,7 +52,7 @@
             }
         </script>
 <div id="body">
-    NUEVO BODY!!!
+	<%=properties.get( "lblList", "TODO List?" )%>
 	<table id="registros">
 	</table>
 	<a onclick="previousTODO();">previous</a>
