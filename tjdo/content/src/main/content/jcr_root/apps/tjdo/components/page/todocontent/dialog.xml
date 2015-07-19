@@ -103,7 +103,7 @@
                         xtype="numberfield">
                         <listeners
         					jcr:primaryType="nt:unstructured"
-        					afterrender="function(field) {var t = field.findParentByType('dialog').getField('./limit_max_tasks'); alert('Field: ' + t.getValue()); if(t.getValue()){field.enable();} else {field.disable();}}"
+        					loadcontent="function(field, record, path) {var t = field.findParentByType('dialog').getField('./limit_max_tasks'); if(t.getValue() == 'true'){field.enable();} else {field.disable();}}"
         					/>
                     </max_tasks>
                 </items>
