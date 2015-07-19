@@ -38,7 +38,7 @@
                         xtype="textfield"/>
                     <select_default
                         jcr:primaryType="cq:Widget"
-                        defaultValue="{Long}0"
+                        defaultValue="0"
                         fieldLabel="Default Control"
                         name="./control_default"
                         type="select"
@@ -47,15 +47,15 @@
                             <all
                                 jcr:primaryType="nt:unstructured"
                                 text="All"
-                                value="{Long}0"/>
+                                value="0"/>
                             <active
                                 jcr:primaryType="nt:unstructured"
                                 text="Active"
-                                value="{Long}1"/>
+                                value="1"/>
                             <completed
                                 jcr:primaryType="nt:unstructured"
                                 text="Completed"
-                                value="{Long}2"/>
+                                value="2"/>
                         </options>
                     </select_default>
                     <cta_clear_completed
@@ -112,5 +112,6 @@
     </items>
     <listeners
         jcr:primaryType="nt:unstructured"
-        loadcontent="function(dialog, recs, opts, success) {var check = dialog.getField('./enable_pagination'); var t = dialog.find('xtype' ,'tabpanel')[0]; if(check.getValue()){t.unhideTabStripItem('tab2');} else {t.hideTabStripItem('tab2');}}"/>
+        loadcontent="function(dialog, recs, opts, success) {var check = dialog.getField('./enable_pagination'); var t = dialog.find('xtype' ,'tabpanel')[0]; if(check.getValue()){t.unhideTabStripItem('tab2');} else {t.hideTabStripItem('tab2');}}"
+        />
 </jcr:root>

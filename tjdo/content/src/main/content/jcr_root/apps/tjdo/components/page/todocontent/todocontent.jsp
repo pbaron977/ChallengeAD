@@ -4,7 +4,6 @@
 <c:set var="all_label" value="${properties['control_all_label']}" />
 <c:set var="active_label" value="${properties['control_active_label']}" />
 <c:set var="completed_label" value="${properties['control_completed_label']}" />
-<c:set var="control_default" value="${properties['control_default']}" />
 <c:set var="cta_clear_completed" value="${properties['cta_clear_completed']}" />
 <c:set var="enable_pagination" value="${properties['enable_pagination']}" />
 
@@ -31,6 +30,32 @@
 <c:if test="${empty cta_clear_completed}">
 	<c:set var="cta_clear_completed" value="Clear completed" />
 </c:if>
+
+<c:if test="${not empty properties['control_default']}">
+	<c:choose>
+		<c:when test="${properties['control_default'] eq 0}">
+			<c:set var="control_default" value="#/all" />
+		</c:when>
+		<c:when test="${properties['control_default'] eq 1}">
+			<c:set var="control_default" value="#/active" />
+		</c:when>
+		<c:when test="${properties['control_default'] eq 2}">
+			<c:set var="control_default" value="#/completed" />
+		</c:when>
+	</c:choose>
+</c:if>
+<script type="text/javascript">
+	// 1. Checking the actual selected tab.
+	var hash = location.hash;
+	console.log('Actual hash: ' + hash);
+	console.log('Default hash: ' + '${control_default}');
+	// 2. If the default is different, a new refresh should be issued.
+	if (hash != '${control_default}') {
+		location.hash = '${control_default}';
+		location.reload();
+	}
+	console.log('New hash: ' + location.hash);	
+</script>
 
 <section id="todoapp">
 	<header id="header">
