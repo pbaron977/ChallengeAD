@@ -47,14 +47,12 @@
 <script type="text/javascript">
 	// 1. Checking the actual selected tab.
 	var hash = location.hash;
-	console.log('Actual hash: ' + hash);
 	console.log('Default hash: ' + '${control_default}');
 	// 2. If the default is different, a new refresh should be issued.
 	if (hash != '${control_default}') {
 		location.hash = '${control_default}';
 		location.reload();
-	}
-	console.log('New hash: ' + location.hash);	
+	}	
 </script>
 
 <section id="todoapp">
