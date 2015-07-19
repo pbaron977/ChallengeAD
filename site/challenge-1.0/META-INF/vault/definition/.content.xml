@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:created="{Date}2015-07-17T21:05:25.305Z"
+    jcr:created="{Date}2015-07-19T17:41:15.457-05:00"
     jcr:createdBy="admin"
     jcr:description=""
-    jcr:lastModified="{Date}2015-07-17T21:05:25.305Z"
+    jcr:lastModified="{Date}2015-07-19T17:41:15.457-05:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="vlt:PackageDefinition"
-    buildCount="3"
+    buildCount="4"
     builtWith="Adobe Experience Manager-6.0.0.SP2"
+    dependencies="[]"
     group="my_packages"
-    lastUnwrapped="{Date}2015-07-17T21:05:25.305Z"
+    lastUnwrapped="{Date}2015-07-19T17:41:15.457-05:00"
     lastUnwrappedBy="admin"
-    lastWrapped="{Date}2015-07-17T21:05:25.305Z"
+    lastWrapped="{Date}2015-07-19T17:41:15.457-05:00"
     lastWrappedBy="admin"
     name="challenge"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
     version="1.0">
     <filter jcr:primaryType="nt:unstructured">
         <f0

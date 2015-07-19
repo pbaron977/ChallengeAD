@@ -9,9 +9,18 @@
     <rep:policy/>
     <launches/>
     <campaigns/>
+    <community-components/>
     <catalogs/>
+    <geometrixx/>
+    <geometrixx_mobile/>
+    <geometrixx-outdoors/>
+    <geometrixx-outdoors-mobile/>
+    <communities/>
+    <phonegap/>
+    <geometrixx-media/>
     <publications/>
-    <projects/>
+    <geometrixx-gov/>
     <forms/>
+    <projects/>
     <todo/>
 </jcr:root>

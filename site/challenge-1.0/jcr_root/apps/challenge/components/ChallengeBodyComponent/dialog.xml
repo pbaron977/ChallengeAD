@@ -72,7 +72,7 @@
                         selectOnFocus="false"
                         validateOnBlur="false"
                         xtype="textfield"/>
-                    <Copy_x0020_of_x0020_completed
+                    <clear
                         jcr:primaryType="nt:unstructured"
                         allowBlank="false"
                         disabled="false"
@@ -124,6 +124,30 @@
                             loadContent="function() {&#xa;  var parent = this.findParentByType( &quot;tabpanel&quot; );&#xa;  var tab = parent.getItem( &quot;pagination&quot; );&#xa;&#xa;  if ( &quot;true&quot; != this.getValue() )&#xa;    tab.disable();&#xa;  else&#xa;    tab.enable();&#xa;}"
                             selectionChanged="function() {&#xa;  var parent = this.findParentByType( &quot;tabpanel&quot; );&#xa;  var tab = parent.getItem( &quot;pagination&quot; );&#xa;&#xa;  if ( &quot;true&quot; != this.getValue() )&#xa;    tab.disable();&#xa;  else&#xa;    tab.enable();&#xa;}"/>
                     </pagination>
+                    <prev
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Previous text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./prev"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
+                    <next
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        disabled="false"
+                        fieldLabel="Next text"
+                        grow="false"
+                        hideLabel="false"
+                        name="./next"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        validateOnBlur="false"
+                        xtype="textfield"/>
                 </items>
             </tab1>
             <tab2

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-07-17T21:01:35.607Z"
+        cq:lastModified="{Date}2015-07-19T17:25:16.112-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/challenge/templates/ChallengeTemplate"
         jcr:primaryType="cq:PageContent"
@@ -10,15 +10,15 @@
         sling:resourceType="/apps/challenge/components/ChallengeComponent"
         navTitle="Backend Challenge">
         <headerChallenge
-            jcr:lastModified="{Date}2015-07-17T21:01:35.600Z"
+            jcr:lastModified="{Date}2015-07-17T20:09:53.376-05:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="challenge/components/ChallengeHeaderComponent"
             color="3366FF"
-            text="&lt;p style=&quot;text-align: center;&quot;>TODO&lt;/p>&#xa;"
+            text="&lt;p style=&quot;text-align: center;&quot;>TO DO&lt;/p>&#xa;"
             textIsRich="true"/>
         <footerChallenge
-            jcr:lastModified="{Date}2015-07-17T20:18:03.674Z"
+            jcr:lastModified="{Date}2015-07-17T20:09:43.743-05:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="challenge/components/ChallengeFooterComponent"
@@ -26,7 +26,7 @@
             text="&lt;p style=&quot;text-align: center;&quot;>By Victor Ortiz&lt;/p>&#xa;"
             textIsRich="true"/>
         <bodyChallenge
-            jcr:lastModified="{Date}2015-07-17T20:52:18.184Z"
+            jcr:lastModified="{Date}2015-07-19T17:25:16.105-05:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="challenge/components/ChallengeBodyComponent"
@@ -34,11 +34,13 @@
             all="Todas"
             clear="Eliminar completas"
             completed="Completas"
-            itemsleft="\{0} tareas pendientes"
+            itemsleft="\{0} tareas por realizar"
             limitmax="true"
             max="10"
+            next="Siguiente"
             pagination="true"
             placeholder="Que tareas faltan por hacer?"
+            prev="Anterior"
             status="All"
             taskspp="10"/>
     </jcr:content>
