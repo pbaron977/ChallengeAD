@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="TJDO Content dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Content"
+                itemId="tab2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder_msg
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Placeholder message"
+                        name="./placeholder_msg"
+                        xtype="textfield"/>
+                    <items_left_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Items left label"
+                        name="./items_left_label"
+                        xtype="textfield"/>
+                    <all_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Control's All label"
+                        name="./control_all_label"
+                        xtype="textfield"/>
+                    <active_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Control's Active label"
+                        name="./control_active_label"
+                        xtype="textfield"/>
+                    <completed_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Control's Completed label"
+                        name="./control_completed_label"
+                        xtype="textfield"/>
+                    <select_default
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="{Long}0"
+                        fieldLabel="Default Control"
+                        name="./control_default"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <all
+                                jcr:primaryType="nt:unstructured"
+                                text="All"
+                                value="{Long}0"/>
+                            <active
+                                jcr:primaryType="nt:unstructured"
+                                text="Active"
+                                value="{Long}1"/>
+                            <completed
+                                jcr:primaryType="nt:unstructured"
+                                text="Completed"
+                                value="{Long}2"/>
+                        </options>
+                    </select_default>
+                    <cta_clear_completed
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="CTA clear completed"
+                        name="./cta_clear_completed"
+                        xtype="textfield"/>
+                    <enable_pagination
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enable pagination?"
+                        name="./enable_pagination"
+                        xtype="checkbox">
+                        <listeners jcr:primaryType="nt:unstructured"
+        					check="function(field, checked) {var d = field.findParentByType('tabpanel'); if(checked == true){ d.unhideTabStripItem('tab2');} else { d.hideTabStripItem('tab2');};}"
+        					/>
+                    </enable_pagination>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                hidden="true"
+                title="Pagination"
+                itemId="tab2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <task_per_page
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Task per page"
+                        name="./task_per_page"
+                        xtype="numberfield"/>
+                    <limit_max_tasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Limit max number of tasks"
+                        name="./limit_max_tasks"
+                        xtype="checkbox"/>
+                    <max_tasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Max number of tasks"
+                        name="./max_tasks"
+                        xtype="numberfield"/>
+                </items>
+            </tab2>
+        </items>
+    </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        loadcontent="function(dialog) {var d = dialog.findByType('tabpanel')[0]; var t = d['tab2'];}"/>
+</jcr:root>
