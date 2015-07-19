@@ -1,14 +1,19 @@
 <%@include file="/libs/foundation/global.jsp"%>
 <c:set var="placeholder_msg" value="${properties['placeholder_msg']}" />
-<c:set var="tems_left_label" value="${properties['items_left_label']}" />
+<c:set var="items_left_label" value="${properties['items_left_label']}" />
 <c:set var="all_label" value="${properties['control_all_label']}" />
 <c:set var="active_label" value="${properties['control_active_label']}" />
 <c:set var="completed_label" value="${properties['control_completed_label']}" />
 <c:set var="control_default" value="${properties['control_default']}" />
 <c:set var="cta_clear_completed" value="${properties['cta_clear_completed']}" />
+<c:set var="enable_pagination" value="${properties['enable_pagination']}" />
 
 <c:if test="${empty placeholder_msg}">
 	<c:set var="placeholder_msg" value="What needs to be done?" />
+</c:if>
+
+<c:if test="${empty items_left_label}">
+	<c:set var="items_left_label" value="{{activeTodoWord}} left" />
 </c:if>
 
 <c:if test="${empty all_label}">
