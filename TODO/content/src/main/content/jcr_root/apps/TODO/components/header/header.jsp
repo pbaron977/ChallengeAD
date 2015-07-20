@@ -1,5 +1,4 @@
-
+<%@include file='/libs/foundation/global.jsp'%>
 <div >
-	Este es el NUEVO header
+	<%= properties.get("lblHeader","TODO LIST")%>
 </div>
-<cq:text property="jcr:lastModifiedBy" tagName="h2"/>

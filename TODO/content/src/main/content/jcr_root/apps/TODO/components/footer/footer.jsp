@@ -1,3 +1,4 @@
+<%@include file='/libs/foundation/global.jsp'%>
 <div id="footer">
-	Este es el pie de pagina
+	<%= properties.get("footerText","This is the footer")%>
 </div>

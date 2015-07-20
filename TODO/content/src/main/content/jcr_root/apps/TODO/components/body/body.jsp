@@ -55,6 +55,9 @@
 	<%=properties.get( "lblList", "TODO List?" )%>
 	<table id="registros">
 	</table>
-	<a onclick="previousTODO();">previous</a>
-	<a onclick="nextTODO();">next</a>
+	<% if(Boolean.valueOf(properties.get("pagEnabled","false"))){
+			out.println("<a onclick='previousTODO();'>previous</a>");
+			out.println("<a onclick='nextTODO();'>next</a>");
+	   }
+	%>
 </div>
