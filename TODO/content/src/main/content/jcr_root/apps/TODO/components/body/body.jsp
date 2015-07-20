@@ -1,7 +1,7 @@
 <%@include file='/libs/foundation/global.jsp'%>
 <script>
             $(document).ready(function() {
-				queryTODORows(-1,5);
+				queryTODORows(-1,<%=properties.get("taskPerPage","5") %>);
 			});
 
             function queryTODORows(first, pageSize){
@@ -39,7 +39,7 @@
             function nextTODO(){
                 var next = $('#registros tr:last-child td:first-child').text();
                 clearData();
-                queryTODORows(next,5);
+                queryTODORows(next,<%=properties.get("taskPerPage","5") %>);
             }
 
             function previousTODO(){
@@ -47,7 +47,7 @@
                 previous = (previous -1);
                 if(previous > 0){
 					clearData();
-	                queryTODORows((previous-5),5);
+	                queryTODORows((previous-5),<%=properties.get("taskPerPage","5") %>);
                 }
             }
         </script>
@@ -56,8 +56,8 @@
 	<table id="registros">
 	</table>
 	<% if(Boolean.valueOf(properties.get("pagEnabled","false"))){
-			out.println("<a onclick='previousTODO();'>previous</a>");
-			out.println("<a onclick='nextTODO();'>next</a>");
+			out.println("<a onclick='previousTODO();'>"+properties.get("previousLabel","previous")+"</a>");
+			out.println("<a onclick='nextTODO();'>"+properties.get("nextLabel","next")+"</a>");
 	   }
 	%>
 </div>

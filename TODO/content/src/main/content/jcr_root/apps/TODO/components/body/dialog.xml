@@ -1,51 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Dialog"
-    title="Configuration"
-    xtype="dialog">
-    <items
-        jcr:primaryType="cq:Widget"
-        xtype="tabpanel">
-        <items jcr:primaryType="cq:WidgetCollection">
-            <settingsTab
-                jcr:primaryType="cq:Panel"
-                title="Component Settings">
-                <items jcr:primaryType="cq:WidgetCollection">
-                    <listTitle
-                        jcr:primaryType="nt:unstructured"
-                        fieldLabel="List title placeholder"
-                        name="./lblList"
-                        validateOnBlur="true"
-                        xtype="textfield"/>
-                    <leftTitle
-                        jcr:primaryType="nt:unstructured"
-                        fieldLabel="Items left label"
-                        validateOnBlur="true"
-                        xtype="textfield"/>
-                    <paginationEnable
-                        jcr:primaryType="nt:unstructured"
-                        allowBlank="true"
-                        checked="false"
-                        fieldLabel="Enable pagination"
-                        name="./pagEnabled"
-                        type="checkbox"
-                        xtype="selection">
-                        <listeners
-                            jcr:primaryType="nt:unstructured"
-                            selectionChanged="function() {var parent = this.findParentByType( 'tabpanel' ); var tab = parent.getItem('pagination');if(tab.disabled){tab.enable()}else{tab.disable()}}"/>
-                        <options jcr:primaryType="cq:WidgetCollection">
-                            <true
-                                jcr:primaryType="nt:unstructured"
-                                value="true"/>
-                        </options>
-                    </paginationEnable>
-                </items>
-            </settingsTab>
-            <paginationTab
-                jcr:primaryType="cq:Panel"
-                disabled="true"
-                id="pagination"
-                title="Pagination"/>
-        </items>
-    </items>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="cq:Dialog"
+	title="Configuration" xtype="dialog">
+	<items jcr:primaryType="cq:Widget" xtype="tabpanel">
+		<items jcr:primaryType="cq:WidgetCollection">
+			<settingsTab jcr:primaryType="cq:Panel" title="Component Settings">
+				<items jcr:primaryType="cq:WidgetCollection">
+					<listTitle jcr:primaryType="nt:unstructured" fieldLabel="List title placeholder"
+						name="./lblList" validateOnBlur="true" xtype="textfield" />
+					<leftTitle jcr:primaryType="nt:unstructured" fieldLabel="Items left label"
+						validateOnBlur="true" xtype="textfield" />
+					<paginationEnable jcr:primaryType="nt:unstructured"
+						allowBlank="true" checked="false" fieldLabel="Enable pagination"
+						name="./pagEnabled" type="checkbox" xtype="selection">
+						<listeners jcr:primaryType="nt:unstructured"
+							selectionChanged="function() {var parent = this.findParentByType( 'tabpanel' ); var tab = parent.getItem('pagination');if(tab.disabled){tab.enable()}else{tab.disable()}}" />
+						<options jcr:primaryType="cq:WidgetCollection">
+							<true jcr:primaryType="nt:unstructured" value="true" />
+						</options>
+					</paginationEnable>
+				</items>
+			</settingsTab>
+			<paginationTab jcr:primaryType="cq:Panel" disabled="true"
+				id="pagination" title="Pagination">
+				<items jcr:primaryType="cq:WidgetCollection">
+					<taskPerPage jcr:primaryType="nt:unstructured"
+						fieldLabel="Tasks per page" name="./taskPerPage" validateOnBlur="true"
+						xtype="numberfield" />
+					<limitResults jcr:primaryType="nt:unstructured"
+						allowBlank="true" checked="false" fieldLabel="Enable pagination"
+						name="./maxPagEnabled" type="checkbox" xtype="selection">
+						<listeners jcr:primaryType="nt:unstructured"
+							selectionChanged="function() {if($('#maxTasks').prop('disabled')){$('#maxTasks').prop('disabled',false)}else{$('#maxTasks').prop('disabled',true)}}" />
+						<options jcr:primaryType="cq:WidgetCollection">
+							<true jcr:primaryType="nt:unstructured" value="true" />
+						</options>
+					</limitResults>
+					<maxTasks jcr:primaryType="nt:unstructured" disabled="{Boolean}true"
+						fieldLabel="Max Number of Tasks" id="maxTasks" name="./maxTasks"
+						validateOnBlur="true" xtype="numberfield" />
+					<previosLabel jcr:primaryType="nt:unstructured" fieldLabel="Previous label"
+						name="./previousLabel" validateOnBlur="true" xtype="textfield" />
+					<nextLabel jcr:primaryType="nt:unstructured" fieldLabel="Next label"
+						name="./nextLabel" validateOnBlur="true" xtype="textfield" />
+				</items>
+			</paginationTab>
+		</items>
+	</items>
 </jcr:root>
