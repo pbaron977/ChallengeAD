@@ -1,0 +1,5 @@
+#base=js
+todomvc-common/base.js
+handlebars/dist/handlebars.js
+director/build/director.js
+app.js

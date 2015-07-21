@@ -1,18 +1,10 @@
-<%@include file="/apps/challenge/global/global.jsp"%><%
-%><%@page session="false" import="com.adobe.granite.xss.XSSAPI"%><%
-
-    /* Services */
-    final XSSAPI xss = sling.getService(XSSAPI.class);
-
-    /* Page Properties */
-    final String pageTitle = currentPage.getPageTitle();
-    final String pageDescription = currentPage.getDescription();
-%>
+<%@include file="/apps/challenge/global/global.jsp"%>
+<%@page session="false" import="com.adobe.granite.xss.XSSAPI"%>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><%= xss.encodeForHTML(pageTitle) %></title>
-    <meta name="description" content="<%= xss.encodeForHTML(pageDescription) %>">
+    <title>TO-DO List</title>
+    <meta name="description" content="Challenge creating a todo list">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <cq:include script="headlibs.jsp"/>

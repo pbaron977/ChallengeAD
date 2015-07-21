@@ -1,0 +1,84 @@
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
+    xmlns:cq="http://www.day.com/jcr/cq/1.0" 
+    xmlns:jcr="http://www.jcp.org/jcr/1.0" 
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="0"
+    title="TO-DO Component"
+    xtype="tabpanel">
+    <listeners jcr:primaryType="nt:unstructured"
+       render="function(dlg) {
+       dlg.hideTabStripItem('tab2')
+       }"
+    />
+    
+    <items jcr:primaryType="cq:WidgetCollection">
+    	<tab1 jcr:primaryType="cq:Widget" title="Content" xtype="panel" id="tab1">
+    		<listeners jcr:primaryType="nt:unstructured"
+                       afterrender="function(dialog){
+                       		
+                       }"
+                       />
+    		<items jcr:primaryType="cq:WidgetCollection">
+    			<placeholder	jcr:primaryType="cq:Widget"
+    							fieldLabel="List title placeholder"
+    							name="./placeholder"
+    							xtype="textfield" />
+    			<itemsleft	jcr:primaryType="cq:Widget"
+    							fieldLabel="Items left label"
+    							name="./itemsleft"
+    							xtype="textfield" />
+    			<buttonall	jcr:primaryType="cq:Widget"
+    							fieldLabel="All button"
+    							name="./buttonall"
+    							xtype="textfield" />
+    			<buttonactive	jcr:primaryType="cq:Widget"
+    							fieldLabel="Active button"
+    							name="./buttonactive"
+    							xtype="textfield" />
+    			<buttoncompleted	jcr:primaryType="cq:Widget"
+    							fieldLabel="Completed button"
+    							name="./buttoncompleted"
+    							xtype="textfield" />
+    			<buttonclear	jcr:primaryType="cq:Widget"
+    							fieldLabel="Clear Completed button"
+    							name="./buttonclear"
+    							xtype="textfield" />
+    			<enablepagination	jcr:primaryType="cq:Widget"
+    								fieldLabel="Enable pagination"
+    								name="./enablepagination"
+    								xtype="checkbox">
+    				<listeners jcr:primaryType="nt:unstructured"
+            				check="function(comp, isChecked) {
+            				var dlg = comp.findParentByType('tabpanel');
+                			isChecked ? dlg.unhideTabStripItem('tab2')  : dlg.hideTabStripItem('tab2')
+            				}"
+            				/>
+    			</enablepagination>
+    		</items>
+    	</tab1>
+    	<tab2 jcr:primaryType="cq:Widget" title="Pagination" xtype="panel" id="tab2">
+    		<items jcr:primaryType="cq:WidgetCollection">
+    			<taskpage		jcr:primaryType="cq:Widget"
+    							fieldLabel="Tasks per page"
+    							name="./taskpage"
+    							xtype="textfield" />
+    			<islimitasks	jcr:primaryType="cq:Widget"
+    							fieldLabel="Limit max number of tasks"
+    							name="./islimitasks"
+    							xtype="checkbox">
+    				<listeners jcr:primaryType="nt:unstructured"
+            				check="function(comp, isChecked) {
+            				var dlg = comp.findParentByType('tabpanel'); 
+            				}"
+            				/>
+    			</islimitasks>
+    			<maxtasks		jcr:primaryType="cq:Widget"
+    							fieldLabel="Max number of tasks"
+    							name="./maxtasks"
+    							xtype="textfield"
+    							disabled="true"/>
+    		</items>
+    	</tab2>
+    </items>
+</jcr:root>
