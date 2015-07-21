@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/challengegabriel"/>
+    <filter root="/apps/challengegabriel/components/content"/>
+    <filter root="/apps/challengegabriel/components/page"/>
+    <filter root="/etc/clientlibs/challengegabriel"/>
+    <filter root="/content/todo"/>
+</workspaceFilter>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/todopagedesign"
+        cq:lastModified="{Date}2015-07-20T11:02:07.149-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/challengegabriel/templates/todoTemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="myChallengePage"
+        sling:resourceType="challengegabriel/components/page/todoPage"
+        pagernumber="5">
+        <header
+            jcr:lastModified="{Date}2015-07-20T11:01:52.085-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="challengegabriel/components/page/header"
+            title="Enter title"/>
+        <image
+            jcr:lastModified="{Date}2015-07-15T15:52:38.863-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <footer
+            jcr:lastModified="{Date}2015-07-20T11:02:07.146-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="challengegabriel/components/content/footer"
+            footer="Enter footer"/>
+    </jcr:content>
+</jcr:root>
