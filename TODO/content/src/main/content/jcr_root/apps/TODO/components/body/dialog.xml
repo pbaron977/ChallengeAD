@@ -8,7 +8,7 @@
 				<items jcr:primaryType="cq:WidgetCollection">
 					<listTitle jcr:primaryType="nt:unstructured" fieldLabel="List title placeholder"
 						name="./lblList" validateOnBlur="true" xtype="textfield" />
-					<leftTitle jcr:primaryType="nt:unstructured" fieldLabel="Items left label"
+					<leftTitle jcr:primaryType="nt:unstructured" name="./itemsLeft" fieldLabel="Items left label"
 						validateOnBlur="true" xtype="textfield" />
 					<paginationEnable jcr:primaryType="nt:unstructured"
 						allowBlank="true" checked="false" fieldLabel="Enable pagination"
