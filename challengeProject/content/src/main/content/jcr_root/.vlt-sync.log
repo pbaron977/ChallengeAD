@@ -1,0 +1,100 @@
+19.07.2015 23:09:12 Vault sync service started and observing this directory.
+19.07.2015 23:09:12 Sync root configured with filter /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/META-INF/vault/filter.xml
+19.07.2015 23:09:12 Syncing in /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root is enabled by .vlt-sync-config.properties
+19.07.2015 23:17:33 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/welcome.html
+19.07.2015 23:20:30 D jcr://apps/challengeProject/welcome.html
+19.07.2015 23:26:56 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/footer.jsp
+19.07.2015 23:26:56 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/header.jsp
+19.07.2015 23:26:56 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+19.07.2015 23:26:56 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+19.07.2015 23:27:21 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/templates/
+19.07.2015 23:27:21 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/templates/challengeTemplate2/
+20.07.2015 10:53:16 Vault sync service started and observing this directory.
+20.07.2015 10:53:16 Sync root configured with filter /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/META-INF/vault/filter.xml
+20.07.2015 10:53:16 Syncing in /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root is enabled by .vlt-sync-config.properties
+20.07.2015 11:57:52 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 11:57:52 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 12:08:14 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 12:08:14 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 12:42:47 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 12:42:57 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 12:43:20 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 12:44:09 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 12:44:09 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 14:46:46 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/title-text/
+20.07.2015 14:46:46 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/title-text/title-text.jsp
+20.07.2015 14:47:27 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/title-text/title-text.html
+20.07.2015 14:47:27 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/title-text/title-text.jsp
+20.07.2015 15:09:48 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/title-text/title-text.html
+20.07.2015 15:15:06 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/header.jsp
+20.07.2015 15:15:06 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 15:22:52 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 15:22:52 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 16:15:56 Vault sync service started and observing this directory.
+20.07.2015 16:15:56 Sync root configured with filter /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/META-INF/vault/filter.xml
+20.07.2015 16:15:56 Syncing in /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root is enabled by .vlt-sync-config.properties
+20.07.2015 16:20:18 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/footer.jsp
+20.07.2015 16:56:36 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/title-text/title-text.html
+20.07.2015 16:57:08 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/Copy of title-text/title-text.html
+20.07.2015 16:57:20 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/footer-text/
+20.07.2015 16:57:20 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/Copy of title-text/title-text.html
+20.07.2015 16:57:20 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/Copy of title-text/
+20.07.2015 17:04:17 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/title-text/title-text.html
+20.07.2015 17:04:17 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/title-text/
+20.07.2015 18:04:06 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.jsp
+20.07.2015 18:04:06 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 19:02:07 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/utils/
+20.07.2015 19:02:07 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/utils/filters.js
+20.07.2015 19:04:46 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/todoapp.js
+20.07.2015 19:05:59 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/utils/filters.js
+20.07.2015 19:05:59 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/utils/
+20.07.2015 19:05:59 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/utils/
+20.07.2015 19:07:13 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/todoapp.js
+20.07.2015 19:12:08 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/page.js
+20.07.2015 19:12:41 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/page.js
+20.07.2015 20:20:53 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 20:20:53 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 20:40:51 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/todoapp.html
+20.07.2015 21:03:30 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/todoapp.html
+20.07.2015 21:04:30 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/Copy of todoapp.html
+20.07.2015 21:05:06 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/Copy of Copy of todoapp.html
+20.07.2015 21:05:33 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/todoapp.html
+20.07.2015 21:05:33 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/Copy of todoapp.html
+20.07.2015 21:13:13 Vault sync service started and observing this directory.
+20.07.2015 21:13:13 Sync root configured with filter /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/META-INF/vault/filter.xml
+20.07.2015 21:13:13 Syncing in /Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root is enabled by .vlt-sync-config.properties
+20.07.2015 21:15:02 D file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/Copy of Copy of todoapp.html
+20.07.2015 21:18:01 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 21:19:05 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/item/item.js
+20.07.2015 21:19:05 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/item/item.html
+20.07.2015 21:29:58 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 21:29:58 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 21:40:20 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 21:40:20 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 21:45:02 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 21:49:18 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 21:49:18 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 21:54:40 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 21:54:40 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 21:56:36 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 21:56:36 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 22:00:56 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:00:56 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 22:05:30 A file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/.jshintrc
+20.07.2015 22:20:32 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:21:36 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:34:52 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:37:41 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:41:37 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:51:56 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/header.jsp
+20.07.2015 22:51:56 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 22:53:26 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/footer.jsp
+20.07.2015 22:54:04 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/footer.jsp
+20.07.2015 22:54:15 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/header.jsp
+20.07.2015 22:54:37 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/content.jsp
+20.07.2015 23:23:01 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 23:23:36 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+20.07.2015 23:24:47 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html
+21.07.2015 00:01:38 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/todoapp.html
+21.07.2015 00:01:38 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/header.jsp
+21.07.2015 00:01:38 U file:///Users/jorforer/Documents/ChallengeAD/challengeProject/content/src/main/content/jcr_root/apps/challengeProject/components/contentpage/contentpage.html

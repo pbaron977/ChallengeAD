@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+<head>
+
+<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>${properties.jcr:title}</title>
+        <sly data-sly-call="${clientLib.css @ categories='todo'}" data-sly-unwrap/>
+</head>
+<body data-sly-use.model="page.js">
+
+<section id="todoapp" data-update-path="${model.updatePath}" data-sly-include="todoapp.html">
+    </section>
+	<cq:include script="content.jsp"/>
+    <cq:include script="footer.jsp"/>
+</body></html>
