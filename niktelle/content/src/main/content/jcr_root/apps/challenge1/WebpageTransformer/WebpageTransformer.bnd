@@ -1,0 +1,8 @@
+Export-Package: * Import-Package: *
+Private-Package: com.prodigious.challenge.niko.transformer
+# Include-Resource: 
+Bundle-Name: WebpageTransformer
+Bundle-Description: Transforms webpages
+Bundle-SymbolicName: WebpageTransformer
+Bundle-Version: 1.0.0-SNAPSHOT
+Bundle-Activator: com.prodigious.challenge.niko.transformer.Activator
