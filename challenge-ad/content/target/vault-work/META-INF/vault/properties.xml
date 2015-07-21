@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>ChallengeAD Package</comment>
+<entry key="createdBy">andmoren</entry>
+<entry key="name">challenge-ad-content</entry>
+<entry key="created">2015-07-17T09:00:01.508-0500</entry>
+<entry key="groupId">com.prodigious.challenge</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">ChallengeAD Package</entry>
+<entry key="description">Maven Multimodule project for ChallengeAD.</entry>
+<entry key="artifactId">challenge-ad-content</entry>
+<entry key="path">/etc/packages/ChallengeAD Package/challenge-ad-content.zip</entry>
+</properties>
