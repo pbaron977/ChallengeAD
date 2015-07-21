@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Text Configurations">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <prop1
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Text in Header"
+                        name="./textheaderfield1"
+                        validateOnBlur="true"
+                        xtype="textarea"/>
+                    <prop2
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldLabel="Text Font:"
+                        fieldSubLabel=""
+                        grow="false"
+                        name="./textfontchooser"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        type="select"
+                        validateOnBlur="true"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <font1
+                                jcr:primaryType="nt:unstructured"
+                                text="Impact, Charcoal, sans-serif"
+                                value="Impact, Charcoal, sans-serif;"/>
+                            <font2
+                                jcr:primaryType="nt:unstructured"
+                                text="Palatino Linotype, Book Antiqua, Palatino, serif"
+                                value="‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;"/>
+                            <font3
+                                jcr:primaryType="nt:unstructured"
+                                text="Tahoma, Geneva, sans-serif"
+                                value="Tahoma, Geneva, sans-serif;"/>
+                            <font4
+                                jcr:primaryType="nt:unstructured"
+                                text="Century Gothic, sans-serif"
+                                value="Century Gothic, sans-serif;"/>
+                            <font5
+                                jcr:primaryType="nt:unstructured"
+                                text="Lucida Sans Unicode, Lucida Grande, sans-serif"
+                                value="‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;"/>
+                            <font6
+                                jcr:primaryType="nt:unstructured"
+                                text="‘Arial Black’, Gadget, sans-serif;"
+                                value="‘Arial Black’, Gadget, sans-serif;"/>
+                        </options>
+                    </prop2>
+                    <prop3
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Text color: "
+                        name="./colortextchooser"
+                        showHexValue="true"
+                        xtype="colorfield"/>
+                    <prop4
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldLabel="Text Size:"
+                        fieldSubLabel=""
+                        grow="false"
+                        name="./textheadersizechooser"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        type="select"
+                        validateOnBlur="true"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <xx-small
+                                jcr:primaryType="nt:unstructured"
+                                text="XX-Small"
+                                value="xx-small"/>
+                            <x-small
+                                jcr:primaryType="nt:unstructured"
+                                text="X-Small"
+                                value="x-small"/>
+                            <small
+                                jcr:primaryType="nt:unstructured"
+                                text="Small"
+                                value="small"/>
+                            <medium
+                                jcr:primaryType="nt:unstructured"
+                                text="Medium"
+                                value="medim"/>
+                            <large
+                                jcr:primaryType="nt:unstructured"
+                                text="Large"
+                                value="large"/>
+                            <x-large
+                                jcr:primaryType="nt:unstructured"
+                                text="X-Large"
+                                value="x-large"/>
+                            <xx-large
+                                jcr:primaryType="nt:unstructured"
+                                text="XX-Large"
+                                value="xx-large"/>
+                        </options>
+                    </prop4>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Backgroung Configurations">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <prop5
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Background color: "
+                        name="./colorheaderchooser"
+                        showHexValue="true"
+                        xtype="colorfield"/>
+                    <prop6
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldLabel="Text Font:"
+                        fieldSubLabel=""
+                        grow="false"
+                        name="./textalignchooser"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        type="select"
+                        validateOnBlur="true"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <alignleft
+                                jcr:primaryType="nt:unstructured"
+                                text="Left"
+                                value="left"/>
+                            <aligncenter
+                                jcr:primaryType="nt:unstructured"
+                                text="Center"
+                                value="center"/>
+                            <alignrigth
+                                jcr:primaryType="nt:unstructured"
+                                text="Right"
+                                value="right"/>
+                        </options>
+                    </prop6>
+                </items>
+            </tab2>
+        </items>
+    </items>
+</jcr:root>

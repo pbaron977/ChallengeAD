@@ -1,0 +1,9 @@
+com/adobe/training/core/util/ConsumeService.class
+com/adobe/training/core/business/TaskBusiness.class
+com/adobe/training/core/impl/filters/LoggingFilter.class
+com/adobe/training/core/HelloService.class
+com/adobe/training/core/domain/Task.class
+com/adobe/training/core/CopyRight.class
+com/adobe/training/core/impl/HelloServiceImpl.class
+com/adobe/training/core/controller/TaskController.class
+com/adobe/training/core/package-info.class

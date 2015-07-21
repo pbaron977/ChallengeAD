@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    cartItems="[/content/geometrixx-outdoors/en/equipment/running/mombassa-runners/jcr:content/par/product/eqsmmr_2-7;1,/content/geometrixx-outdoors/en/equipment/running/fiji-sport/jcr:content/par/product/wmapfs_r-s;1]"
+    cartSubtotal="{Decimal}62.5"
+    currencyCode="USD"
+    orderId="3e1ee56c-d328-4fce-a3c7-5fe5a1623818"
+    orderPlaced="{Date}2012-04-07T16:50:12.329+01:00"
+    orderShipping="{Decimal}10.00"
+    orderTotalPrice="{Decimal}75.75"
+    orderTotalTax="{Decimal}3.75"
+    trackingNumber="1105153436571418683379"
+    trackingUrl="https://tools.usps.com/go/TrackConfirmAction_input?strOrigTrackNum=1105153436571418683379"
+    vouchers="[]">
+    <order-details
+        jcr:primaryType="nt:unstructured"
+        billing.city="San Jose"
+        billing.country="US"
+        billing.firstname="Alison"
+        billing.lastname="Parker"
+        billing.state="CA"
+        billing.street1="4501 El Rio Drive"
+        billing.zip="95125"
+        paymentToken="faux-payment-token"
+        shipping-option="ground"
+        shipping.city="San Jose"
+        shipping.country="US"
+        shipping.firstname="Alison"
+        shipping.lastname="Parker"
+        shipping.state="CA"
+        shipping.street1="4501 El Rio Drive"
+        shipping.zip="95125"/>
+</jcr:root>

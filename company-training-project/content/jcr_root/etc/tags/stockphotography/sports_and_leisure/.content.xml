@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Sports And Leisure"
+    sling:resourceType="cq/tagging/components/tag">
+    <competition/>
+    <extreme_sports/>
+    <fitness/>
+    <golf/>
+    <individual_sports/>
+    <sports_backgrounds/>
+    <sports_symbols_metap/>
+    <team_sports/>
+    <water/>
+</jcr:root>

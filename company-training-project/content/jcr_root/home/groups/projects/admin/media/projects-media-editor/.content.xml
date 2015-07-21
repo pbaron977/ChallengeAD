@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="b9a42153-d4f2-3bcc-b0d4-69fe5121e648"
+    rep:authorizableId="projects-media-editor"
+    rep:principalName="projects-media-editor">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Geometrixx Media Editors"/>
+</jcr:root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="d913d009-dc84-3f3b-ac7f-5471b511144f"
+    rep:authorizableId="projects-media-copywriters"
+    rep:principalName="projects-media-copywriters">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Geometrixx Media Copywriters"/>
+</jcr:root>

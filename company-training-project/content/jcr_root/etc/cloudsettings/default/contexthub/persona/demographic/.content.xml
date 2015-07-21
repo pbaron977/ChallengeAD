@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Demographic"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+    configjson="\{&#xd;&#xa;    &quot;paths&quot;: [&#xd;&#xa;        &quot;/displayName&quot;,&#xd;&#xa;        &quot;/givenName&quot;,&#xd;&#xa;        &quot;/familyName&quot;,&#xd;&#xa;        &quot;/age&quot;,&#xd;&#xa;        &quot;/gender&quot;,&#xd;&#xa;        &quot;/email&quot;,&#xd;&#xa;        &quot;/streetAddress&quot;,&#xd;&#xa;        &quot;/postalCode&quot;,&#xd;&#xa;        &quot;/city&quot;,&#xd;&#xa;        &quot;/region&quot;,&#xd;&#xa;        &quot;/country&quot;&#xd;&#xa;    ]&#xd;&#xa;}"
+    moduleType="granite.demographic"/>

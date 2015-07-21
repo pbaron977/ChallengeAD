@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="ddef0de6-a071-3498-b71f-1d40a00744a6"
+    rep:authorizableId="dtm-deploy-hook-user"
+    rep:password="\{SHA-256}85adfd7c192e16b4-1000-b93c3bb96eeb0059b32bc086f8f1d7c1b860de7fd03c46b671ef3d2a2e2d33db"
+    rep:principalName="dtm-deploy-hook-user"/>

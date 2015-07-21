@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    cartItems="[/content/geometrixx-outdoors/en/equipment/swimming/brazzaville/jcr:content/par/product/wmapbz_w-s;1,/content/geometrixx-outdoors/en/equipment/sunglasses/raja-ampat/jcr:content/par/product;1]"
+    cartSubtotal="{Decimal}88"
+    currencyCode="USD"
+    orderId="3e99753c-ded8-4fce-92c7-5f056acadecb"
+    orderPlaced="{Date}2013-05-27T10:04:44.329+01:00"
+    orderShipping="{Decimal}10.00"
+    orderTotalPrice="{Decimal}103.28"
+    orderTotalTax="{Decimal}5.28"
+    trackingNumber="9405553639370451904505"
+    trackingUrl="https://tools.usps.com/go/TrackConfirmAction_input?strOrigTrackNum=9405553639370451904505"
+    vouchers="[]">
+    <order-details
+        jcr:primaryType="nt:unstructured"
+        billing.city="San Jose"
+        billing.country="US"
+        billing.firstname="Alison"
+        billing.lastname="Parker"
+        billing.state="CA"
+        billing.street1="4501 El Rio Drive"
+        billing.zip="95125"
+        paymentToken="faux-payment-token"
+        shipping-option="ground"
+        shipping.city="San Jose"
+        shipping.country="US"
+        shipping.firstname="Alison"
+        shipping.lastname="Parker"
+        shipping.state="CA"
+        shipping.street1="4501 El Rio Drive"
+        shipping.zip="95125"/>
+</jcr:root>

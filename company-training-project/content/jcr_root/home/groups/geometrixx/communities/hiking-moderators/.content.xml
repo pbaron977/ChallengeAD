@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:lastModified="{Date}2013-04-16T10:27:07.069-07:00"
+    cq:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="3350c1a5-09f7-3a64-9d60-59e0aef0828a"
+    rep:members="{WeakReference}[069135c2-6126-3318-bc21-82c279907483,e66fde84-6efd-3505-9c42-251c6ddc500d]"
+    rep:principalName="hiking-moderators"
+    liveCopyPath="/content/geometrixx-outdoors/en/community/hiking">
+    <preferences
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq:Preferences"/>
+    <profile
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        givenName="hiking-moderators"/>
+</jcr:root>

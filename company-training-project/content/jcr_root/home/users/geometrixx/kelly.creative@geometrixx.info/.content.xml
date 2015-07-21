@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:authorizableCategory=""
+    cq:lastModified="{Date}2014-04-02T00:29:37.520+05:30"
+    cq:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="a2be06f4-4bc4-3804-ad5c-46ff6232ce68"
+    rep:authorizableId="kelly.creative@geometrixx.info"
+    rep:password="\{SHA-256}1a1f825576a837d4-1000-a1e5a2f7f0808ed40b30297529b475b05579e3ac114f4f9686a72a86b1986dec"
+    rep:principalName="kelly.creative@geometrixx.info">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        familyName="Creative"
+        givenName="Kelly"/>
+</jcr:root>

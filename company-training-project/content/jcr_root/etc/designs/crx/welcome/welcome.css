@@ -1,0 +1,342 @@
+/*
+ * Copyright 1997-2009 Day Management AG
+ * Barfuesserplatz 6, 4001 Basel, Switzerland
+ * All Rights Reserved.
+ *
+ * This software is the confidential and proprietary information of
+ * Day Management AG, ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Day.
+ */
+
+@font-face {
+    font-family: 'AdobeCleanBold';
+    src: url('resources/adobeclean-bold-webfont.eot');
+    src: url('resources/adobeclean-bold-webfont.eot?#iefix') format('embedded-opentype'),url('resources/adobeclean-bold-webfont.woff') format('woff'),url('resources/adobeclean-bold-webfont.ttf') format('truetype'),url('resources/adobeclean-bold-webfont.svg#AdobeCleanBold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'AdobeCleanLight';
+    src: url('resources/adobeclean-light-webfont.eot');
+    src: url('resources/adobeclean-light-webfont.eot?#iefix') format('embedded-opentype'),url('resources/adobeclean-light-webfont.woff') format('woff'),url('resources/adobeclean-light-webfont.ttf') format('truetype'),url('resources/adobeclean-light-webfont.svg#AdobeCleanLight') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'AdobeCleanRegular';
+    src: url('resources/adobeclean-regular-webfont.eot');
+    src: url('resources/adobeclean-regular-webfont.eot?#iefix') format('embedded-opentype'),url('resources/adobeclean-regular-webfont.woff') format('woff'),url('resources/adobeclean-regular-webfont.ttf') format('truetype'),url('resources/adobeclean-regular-webfont.svg#AdobeCleanRegular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+ 
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: AdobeCleanRegular, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.2;
+	background: #f2f2f2; /* Old browsers */
+    background: -moz-linear-gradient(top, #f2f2f2 0%, #e7e7e7 600px) no-repeat fixed; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(600px,#e7e7e7)) no-repeat fixed; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f2f2f2 0%,#e7e7e7 600px) no-repeat fixed; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f2f2f2 0%,#e7e7e7 600px) no-repeat fixed; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f2f2f2 0%,#e7e7e7 600px) no-repeat fixed; /* IE10+ */
+    background: linear-gradient(top, #f2f2f2 0%,#e7e7e7 600px) no-repeat fixed; /* W3C */
+}
+
+img {
+	border: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	padding: 0 30px;
+	width: 1088px;
+}
+
+#topnav_frame {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #FFF;
+}
+
+#topnav {
+	border-bottom: 1px solid #ABABAB;
+	background: #ECEDED;
+}
+
+#topnav .smalllogo {
+	float: left;
+	width: 30px;
+	height: 34px;
+	background: url("smalllogo.png") no-repeat center right transparent;
+}
+
+#topnav ul {
+	list-style: none;
+	font-size: 13px;
+	height: 34px;
+	font-family: AdobeCleanLight, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#topnav li {
+	float: left;
+	list-style: none;
+	padding: 0 12px;
+	line-height: 34px;
+	color: #585858;
+	background: url("topnav_sep.png") no-repeat right 0 transparent;
+}
+
+#topnav li.more {
+	padding-right: 30px;
+	background: url("topnav_sep_arrow_gray.png") no-repeat right 0 transparent;
+	cursor: pointer;
+}
+
+#topnav a {
+    text-decoration: none;
+    color: #585858;
+}
+
+#more {
+	display: none;
+	position: absolute;
+	top: 34px;
+	z-index: 9999;
+	border: 1px solid #ABABAB;
+	border-top: 0;
+	padding: 10px 15px;
+	background: #ECEDED;
+	font-family: AdobeCleanLight, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#more ul {
+    list-style: none;
+}
+
+#more li {
+    list-style: none;
+}
+
+#more a {
+    text-decoration: none;
+    color: #585858;
+}
+
+#logo {
+	margin-bottom: 57px;
+    padding-top: 61px;
+    height: 48px;
+    background: url("logo.png") left 61px no-repeat;
+}
+
+#logo a {
+	display: block;
+}
+
+#info {
+	position: absolute;
+	top: 90px;
+	left: 30px;
+	border-bottom: 1px solid #DFDFDF;
+	width: 1088px;
+	color: #666;
+	font-size: 18px;
+	text-align: right;
+}
+
+#info p {
+    margin: 2px 0 0;
+    font-family: AdobeCleanLight, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#info .search {
+	height: 22px;
+}
+
+#info .search button {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 16px;
+	height: 22px;
+    background: transparent url("search.png") center center no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+#searchInput {
+	display: none;
+	position: absolute;
+	right: 16px;
+	z-index: 9999;
+	margin: 0 5px 0 0;
+	border: 0;
+	padding: 0 2px;
+	outline: 0;
+	line-height: 22px;
+	height: 22px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#features {
+	list-style: none;
+	width: 831px;
+}
+
+#features li {
+	float: left;
+	list-style: none;
+	margin: 0 20px 20px 0;
+}
+
+#features a {
+	display: block;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	width: 235px;
+	height: 221px;
+	text-decoration: none;
+    background: #F6F6F6;
+}
+
+#features .images {
+	height: 163px;
+}
+
+#features .images img {
+    float: left;
+    margin-left: 5px;
+    border: 1px solid #E0E0E0;
+}
+
+#features .images img:first-child {
+    margin-left: 0;
+}
+
+#features h3 {
+	clear: both;
+	margin: 5px 0 0;
+    color: #000;
+    line-height: 1.2;
+    font-size: 21px;
+    font-weight: normal;
+    font-family: AdobeCleanLight, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#features p {
+	margin: 0;
+	line-height: 14px;
+	color: #999;
+}
+
+#tools {
+	position: absolute;
+	top: 166px;
+	left: 861px;
+	margin: 0 0 20px 0;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	min-height: 484px;
+	background: #FDFDFD;
+}
+
+#tools .head h2 {
+    margin: 5px 0 0;
+    line-height: 1.2;
+    font-size: 21px;
+    font-weight: normal;
+    font-family: AdobeCleanLight, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#tools .head p {
+	margin: 0;
+	line-height: 14px;
+	color: #ACACAC;
+}
+
+#tools .body {
+	border: 1px solid #E6E6E6;
+	padding: 1em;
+	width: 209px;
+	min-height: 401px;
+	background: #F0F8FB;
+}
+
+#tools ul {
+	list-style: none;
+	margin: 0 0 3em;
+}
+
+#tools li {
+    list-style: none;
+}
+
+#tools a {
+	color: #005F8C;
+	text-decoration: none;
+}
+
+#tools a:hover {
+	text-decoration: underline;
+}
+
+#tools h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: AdobeCleanBold, Myriad, Lucida Grande, Lucida Sans Unicode, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#tools p {
+    margin: 0 0 12px;
+    color: #333;
+    font-size: 11px;
+}
+
+#popupscreen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	z-index: 9998;
+}
+
+/* 1-col features */
+@media (max-width: 870px) {
+    #wrapper, #info { width: 534px; }
+    #features { width: 277px; }
+    #tools { left: 307px; }
+}
+/* 2-col features */
+@media (min-width: 871px) and (max-width: 1147px) {
+    #wrapper, #info { width: 811px; }
+    #features { width: 554px; }
+    #tools { left: 584px; }
+}

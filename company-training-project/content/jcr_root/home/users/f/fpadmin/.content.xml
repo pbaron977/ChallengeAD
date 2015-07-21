@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="00d361ba-3239-3b7e-9ce4-333b299732e6"
+    rep:authorizableId="fpadmin"
+    rep:password="\{SHA-256}9959d67452edbb66-1000-ff75a85cf79afb0025417bd374285cb75ce36f857e15fe885ee5ffd3db753a2c"
+    rep:principalName="fpadmin"/>

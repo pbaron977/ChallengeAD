@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="fee4c001-6d37-34b5-9d63-8db356ea3b1d"
+    rep:authorizableId="projects-shapes-editor"
+    rep:principalName="projects-shapes-editor">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="Geometrixx Shapes Editors"/>
+</jcr:root>

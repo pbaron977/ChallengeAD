@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    cartItems="[/content/geometrixx-outdoors/en/equipment/surfing/lagos-mini-longboard/jcr:content/par/product/eqsmlg-9_8_;1]"
+    cartSubtotal="{Decimal}319.9"
+    currencyCode="USD"
+    orderId="ae14753c-de28-4fce-92c7-5f056a6ad8cb"
+    orderPlaced="{Date}2012-06-11T13:14:44.329+01:00"
+    orderShipping="{Decimal}10.00"
+    orderTotalPrice="{Decimal}349.69"
+    orderTotalTax="{Decimal}19.79"
+    trackingNumber="9405153339371451884525"
+    trackingUrl="https://tools.usps.com/go/TrackConfirmAction_input?strOrigTrackNum=9405153339371451884525"
+    vouchers="[]">
+    <order-details
+        jcr:primaryType="nt:unstructured"
+        billing.city="San Jose"
+        billing.country="US"
+        billing.firstname="Alison"
+        billing.lastname="Parker"
+        billing.state="CA"
+        billing.street1="4501 El Rio Drive"
+        billing.zip="95125"
+        paymentToken="faux-payment-token"
+        shipping-option="ground"
+        shipping.city="San Jose"
+        shipping.country="US"
+        shipping.firstname="Alison"
+        shipping.lastname="Parker"
+        shipping.state="CA"
+        shipping.street1="4501 El Rio Drive"
+        shipping.zip="95125"/>
+</jcr:root>

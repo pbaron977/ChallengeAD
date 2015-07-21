@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2011-11-10T14:40:56.572+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/msm/templates/blueprint"
+        jcr:description="Blueprint that uses the Geometrixx Outdoors Site as original."
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Geometrixx Outdoors Site"
+        sling:resourceType="wcm/msm/components/blueprint"
+        sitePath="/content/geometrixx-outdoors"
+        thumbnailRotate="0">
+        <thumbnail/>
+        <dialog/>
+    </jcr:content>
+</jcr:root>

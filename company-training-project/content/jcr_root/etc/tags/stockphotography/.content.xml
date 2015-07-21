@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Categories used typically in stock photography"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Stock Photography"
+    sling:resourceType="cq/tagging/components/tag">
+    <animals/>
+    <architecture_and_bui/>
+    <arts_and_entertainme/>
+    <business/>
+    <celebrations_holiday/>
+    <concepts_and_ideas/>
+    <food_and_drink/>
+    <health_and_beauty/>
+    <industry/>
+    <isolated_objects/>
+    <lifestyle/>
+    <locations_and_travel/>
+    <nature/>
+    <objects_equipment/>
+    <science_and_medicine/>
+    <sports_and_leisure/>
+    <technology/>
+    <illustrations_vectors/>
+</jcr:root>

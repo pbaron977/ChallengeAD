@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog"
+          beforeshow="function(dialog){Ejst.x2.manageTabs(dialog.items.get(0));}"    >
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Content">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <prop1
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="PlaceHolder Text"
+                        name="./txtcontentplaceholder"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <prop2
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Place Holder Button:"
+                        name="./btncontentplaceholder"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <prop3
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Button &quot;All&quot; Text:"
+                        name="./btncontentall"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <prop4
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Button &quot;Active&quot; Text:"
+                        name="./btncontentactive"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <prop5
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Button &quot;Completed&quot; Text:"
+                        name="./btncontentcompleted"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <prop6
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Button &quot;Clear Completed&quot; Text:"
+                        name="./btncontentclearcompleted"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <prop7
+                        jcr:primaryType="nt:unstructured"
+                        allowBlank="false"
+                        fieldLabel="Default value to be selected:"
+                        fieldSubLabel=""
+                        grow="false"
+                        name="./optcontentvalueactived"
+                        readOnly="false"
+                        selectOnFocus="false"
+                        type="select"
+                        validateOnBlur="true"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <alignleft
+                                jcr:primaryType="nt:unstructured"
+                                text="All"
+                                value="all"/>
+                            <aligncenter
+                                jcr:primaryType="nt:unstructured"
+                                text="Active"
+                                value="active"/>
+                            <alignrigth
+                                jcr:primaryType="nt:unstructured"
+                                text="Completed"
+                                value="completed"/>
+                        </options>
+                    </prop7>
+                    <prop8
+                            jcr:primaryType="nt:unstructured"
+                            fieldLabel="Enable Pagination"
+                            name="./chxshowconfpage"
+                            xtype="checkbox"/>
+                </items>
+            </tab1>
+            <tab2
+                    jcr:primaryType="cq:Panel"
+                    title="Pagination">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <prop9
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="Task per Page"
+                                name="./txttaskperpage"
+                                validateOnBlur="true"
+                                xtype="textfield"/>
+                        <prop10
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="Limit max number of Tasks"
+                                name="./chxlimit"
+                                xtype="checkbox"/>
+                        <prop11
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="Max number of task"
+                                name="./txtmaxlimit"
+                                validateOnBlur="true"
+                                xtype="textfield"/>
+                    </items>
+            </tab2>
+        </items>
+    </items>
+</jcr:root>

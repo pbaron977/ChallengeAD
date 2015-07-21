@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    cartItems="[/content/geometrixx-outdoors/en/equipment/skiing/saskatoon-parka/jcr:content/par/product/wmapsp_b-m;1,/content/geometrixx-outdoors/en/equipment/skiing/tobermory-snow/jcr:content/par/product/eqwntb-8_5;1,/content/geometrixx-outdoors/en/equipment/skiing/mont-tremblant/jcr:content/par/product/eqwnmt-S;1]"
+    cartSubtotal="{Decimal}614"
+    currencyCode="USD"
+    orderId="c5c48b3f-504d-46ac-9380-fe3d35c1940e"
+    orderPlaced="{Date}2012-10-10T10:03:06.032+01:00"
+    orderShipping="{Decimal}0.00"
+    orderTotalPrice="{Decimal}640.84"
+    orderTotalTax="{Decimal}36.84"
+    trackingNumber="9405583688313451906682"
+    trackingUrl="https://tools.usps.com/go/TrackConfirmAction_input?strOrigTrackNum=9405583688313451906682"
+    vouchers="[GIRLSKI;/content/campaigns/geometrixx-outdoors/article/winter-female-under30/ski-like-a-girl-voucher;$10 off your order!]">
+    <order-details
+        jcr:primaryType="nt:unstructured"
+        billing.city="San Jose"
+        billing.country="US"
+        billing.firstname="Alison"
+        billing.lastname="Parker"
+        billing.state="CA"
+        billing.street1="4501 El Rio Drive"
+        billing.zip="95125"
+        paymentToken="faux-payment-token"
+        shipping-option="ground"
+        shipping.city="San Jose"
+        shipping.country="US"
+        shipping.firstname="Alison"
+        shipping.lastname="Parker"
+        shipping.state="CA"
+        shipping.street1="4501 El Rio Drive"
+        shipping.zip="95125"/>
+</jcr:root>

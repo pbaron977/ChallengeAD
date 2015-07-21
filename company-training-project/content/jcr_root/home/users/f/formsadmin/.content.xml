@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="9610a385-4c93-35c2-8a1e-9d2de30c1e9d"
+    rep:authorizableId="formsadmin"
+    rep:password="\{SHA-256}bb4c6623a952b458-1000-592a68293e6a28943ca012e5b52d247fe0f1784a4aae76aa724d1e24a9090c70"
+    rep:principalName="formsadmin"/>
