@@ -82,3 +82,8 @@ body {
     font-size: 63px;
     color: inherit;
 }
+
+
+.text-checked{
+    text-decoration: line-through;
+}
