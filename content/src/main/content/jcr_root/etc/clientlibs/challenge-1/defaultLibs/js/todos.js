@@ -2,9 +2,11 @@ var EnterKey = 13;
 var countTodos = 0;
 $todoList = $('ul.pagination1');
 var todos = $todoList.html();
-var nextUrl = '';
+var enablePagination;
 var pagination;
 var maxItemsPage;
+var limitMaxNumberTasks;
+var labelImageDetail;
 var url = '';
 
 $.fn.isBound = function (type, fn) {
@@ -21,7 +23,7 @@ $(document).ready(function () {
 
     $('#new-todo').keypress(function (e) {
         if (e.which === EnterKey) {
-            url ='https://api.instagram.com/v1/users/search?q='+$('#new-todo').val()+'&access_token=510573486.ab7d4b6.d8b155be5d1a47c78f72616b4d942e8d&count='+maxItemsPage;
+            url ='https://api.instagram.com/v1/users/search?q='+$('#new-todo').val()+'&access_token=510573486.ab7d4b6.d8b155be5d1a47c78f72616b4d942e8d'+(limitMaxNumberTasks === true ? '&count='+maxItemsPage : '');
             requestCall(url, 1);
         }
     }); // end if
@@ -65,7 +67,7 @@ function runBind() {
 }
 
 function userDetail(id){
-    url = 'https://api.instagram.com/v1/users/'+id+'/media/recent?access_token=510573486.ab7d4b6.d8b155be5d1a47c78f72616b4d942e8d&count='+maxItemsPage;
+    url = 'https://api.instagram.com/v1/users/'+id+'/media/recent?access_token=510573486.ab7d4b6.d8b155be5d1a47c78f72616b4d942e8d'+(limitMaxNumberTasks === true ? '&count='+maxItemsPage : '');
     requestCall(url,2);
 }
 
@@ -85,7 +87,12 @@ function requestCall(url, type){
             runBind();
             $('#main').show();
 
-            $("ul.pagination1").quickPagination({pageSize: pagination});
+            if(enablePagination){
+                $("ul.pagination1").quickPagination({pagerLocation:"both",pageSize: pagination});
+            }else{
+                $("ul.pagination1").quickPagination({pagerLocation:"both"});
+            }
+
         });
 }
 
@@ -113,7 +120,7 @@ function buildListItems(value, type){
                 "<hr />" +
                 "<label data=''>" + " <img src='" + value.images.thumbnail.url + "' /></label> <br />" +
                 "<hr />" +
-                "<a href='" +value.link+ "' target='_blank' >See more.. </a>" +
+                "<a href='" +value.link+ "' target='_blank' >"+labelImageDetail+"</a>" +
                 "<a class='destroy'></a>" +
                 "</div>" +
                 "</li>";

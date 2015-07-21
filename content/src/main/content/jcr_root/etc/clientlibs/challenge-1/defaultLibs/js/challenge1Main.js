@@ -77,4 +77,10 @@ hideField = function(comp, isChecked){
     isChecked ? textfield.enable() : textfield.disable();
 }
 
+showMaxNumberTasksField = function(comp, val, isChecked){
+    var dlg = comp.findParentByType("dialog");
+    var textfield = dlg.getField("./maxNumberTasks");
+    isChecked ? textfield.enable() : textfield.disable();
+}
+
 

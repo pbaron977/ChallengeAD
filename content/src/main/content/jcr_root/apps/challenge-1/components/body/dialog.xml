@@ -37,6 +37,40 @@
                             selectionchanged="function(comp, val, isChecked) {showTabPanel(comp, val, isChecked);}"
                             value="pagination"/>
                     </enablePagination>
+                    <btnAllText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label text for the button All"
+                        fieldLabel="Label's All button:"
+                        name="./labelAllButton"
+                        xtype="textfield"/>
+                    <btnActiveText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label text for the button Active"
+                        fieldLabel="Label's Active button:"
+                        name="./labelActiveButton"
+                        value="Insert label"
+                        xtype="textfield"/>
+                    <btnCompletedText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label text for the button Completed"
+                        fieldLabel="Label's Completed button:"
+                        name="./labelCompletedButton"
+                        value="Insert label"
+                        xtype="textfield"/>
+                    <btnClearCompletedText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label text for the button Clear Completed"
+                        fieldLabel="Label's Clear Completed button:"
+                        name="./labelClearCompletedButton"
+                        value="Insert label"
+                        xtype="textfield"/>
+                    <btnSeeMoreText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Label text for image detail"
+                        fieldLabel="Label's image detail:"
+                        name="./labelImageDetail"
+                        value="Insert label"
+                        xtype="textfield"/>
                 </items>
             </content>
             <pagination
@@ -59,7 +93,8 @@
                         xtype="selection">
                         <listeners
                             jcr:primaryType="nt:unstructured"
-                            selectionchanged="function(comp, val, isChecked) {&#xa;    var dlg = comp.findParentByType(&quot;dialog&quot;);&#xa;    var textfield = dlg.getField(&quot;./maxNumberTasks&quot;);&#xa;    isChecked ? textfield.enable() : textfield.disable(); &#xa;}"/>
+                            loadcontent="function(comp, val, isChecked) {showMaxNumberTasksField(comp, val, isChecked);}"
+                            selectionchanged="function(comp, val, isChecked) {showMaxNumberTasksField(comp, val, isChecked);}"/>
                     </limitTasks>
                     <maxNumberTasks
                         jcr:primaryType="cq:Widget"

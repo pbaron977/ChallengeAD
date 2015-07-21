@@ -7,6 +7,9 @@
     $(document).ready(function () {
         pagination = ${properties.tasksPerPage};
         maxItemsPage = ${properties.maxNumberTasks};
+        limitMaxNumberTasks = ${properties.limitMaxNumberTasks ne null ? properties.limitMaxNumberTasks : false};
+        enablePagination = ${properties.enablePagination ne null ? properties.enablePagination : false};
+        labelImageDetail = '${properties.labelImageDetail ne null ? properties.labelImageDetail : 'Insert label'}';
     });
 </script>
 
@@ -22,10 +25,10 @@
         <span id="total">
         </span>
 
-        <button id="btnAll" class="button">All</button>
-        <button id="btnActive" class="button">Active</button>
-        <button id="btnCompleted" class="button">Completed</button>
-        <button id="btnClearCompleted">Clear Completed</button>
+        <button id="btnAll" class="button">${properties.labelAllButton}</button>
+        <button id="btnActive" class="button">${properties.labelActiveButton}</button>
+        <button id="btnCompleted" class="button">${properties.labelCompletedButton}</button>
+        <button id="btnClearCompleted">${properties.labelClearCompletedButton}</button>
     </section>
 
 </div>
