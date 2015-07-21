@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Content">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="PlaceHolder Text:"
+                        name="./placeholder"
+                        xtype="textfield"/>
+                    <itemsLeft
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Items left label"
+                        name="./itemsLeft"
+                        xtype="textfield"/>
+                    <completed
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Clear Completed Text:"
+                        name="./clear_completed"
+                        xtype="textfield"/>
+                    <check_pagination
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enable Pagination:"
+                        name="./check_pagination"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(field,value, isChecked ){if(field !=null){ var tabPanel = field.findParentByType('tabpanel'); if(value == true){ tabPanel.unhideTabStripItem('tab3');} else{tabPanel.hideTabStripItem('tab3');}}}"/>
+                    </check_pagination>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Status control">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <status_first_text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="First text:"
+                        name="./status_text"
+                        xtype="textfield"/>
+                    <status_second_text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Second text:"
+                        name="./status_2_text"
+                        xtype="textfield"/>
+                    <status_third_text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Third text:"
+                        name="./status_3_text"
+                        xtype="textfield"/>
+                    <select_status
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Default Status"
+                        name="./select_status"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <all
+                                jcr:primaryType="nt:unstructured"
+                                text="All"
+                                value="all"/>
+                            <active
+                                jcr:primaryType="nt:unstructured"
+                                text="Active"
+                                value="active"/>
+                            <completed
+                                jcr:primaryType="nt:unstructured"
+                                text="Completed"
+                                value="completed"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(field, value) {var selected_status = field.findParentByType('dialog').getField('./select_status').getValue(); var current_Url= window.location.href;  var replaced_Url =current_Url.split(&quot;#/&quot;); replaced_Url = replaced_Url[0] += &quot;#/&quot; + selected_status; window.location.href = replaced_Url; console.log(window.location.href);location.reload();}&#xa;"/>
+                    </select_status>
+                </items>
+            </tab2>
+            <tab3
+                jcr:primaryType="cq:Panel"
+                itemId="tab3"
+                title="Pagination">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <tasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Tasks per page"
+                        name="./tasks"
+                        xtype="numberfield"/>
+                    <check_limit_max
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Limit max number of tasks:"
+                        name="./limit_max"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(field, value, checked) {var t = field.findParentByType('dialog').getField('./max_tasks'); if(checked){t.enable();} else {t.disable();}}"/>
+                    </check_limit_max>
+                    <max_tasks
+                        jcr:primaryType="cq:Widget"
+                        disabled="{Boolean}true"
+                        fieldLabel="Max number of tasks:"
+                        name="./max_tasks"
+                        xtype="textfield"/>
+                </items>
+            </tab3>
+        </items>
+    </items>
+</jcr:root>
