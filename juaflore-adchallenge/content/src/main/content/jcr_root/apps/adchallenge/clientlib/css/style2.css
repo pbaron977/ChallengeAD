@@ -1,0 +1,312 @@
+@import url('demo.css');
+@import url('font-awesome.css');
+
+/* GLOBALS */
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: inline-table;
+    clear: both;
+}
+
+/* Demo 2 */
+
+.crearEvento {
+    /* Size and position */
+    width: 95%;
+    margin: 60px auto;
+    padding: 15px;
+    position: relative;
+
+    /* Styles */
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+
+.crearEvento h1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #bdb5aa;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EBE6E2;
+    text-shadow: 0 2px 0 rgba(255,255,255,0.8);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.crearEvento h1 .log-in,
+.crearEvento h1 .sign-up {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.crearEvento h1 .log-in {
+    color: #6c6763;
+    padding-right: 2px;
+}
+
+.crearEvento h1 .sign-up {
+    color: #ffb347;
+    padding-left: 2px;
+}
+
+.crearEvento .crearTransaccion {
+	width: 96%; 
+	margin: 30px auto;
+	padding: 15px;
+    position: relative;
+    background: #EFD4D4;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+
+.crearEvento .crearCampos {
+	width: 98%; 
+	margin: 25px auto;
+	padding: 15px;
+    position: relative;
+    background: #D6EFD4;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+
+.crearEvento .float {
+    width: 33%;
+	display: inline-block;
+    /*float: left;*/
+    padding-top: 15px;
+    /*border-top: 1px solid rgba(255,255,255,1);*/
+}
+
+.crearEvento .crearTransaccion .float {
+    width: 49%;
+	display: inline-block;
+    /*float: left;*/
+    padding-top: 15px;
+    /*border-top: 1px solid rgba(255,255,255,1);*/
+}
+
+.crearEvento .crearTransaccion .crearCampos label {
+    padding-top: 0px;
+	margin-top: 10px;
+}
+
+.crearEvento .crearTransaccion .crearCampos .float-100 {
+    /*width: 48%;*/
+	margin: 0 5% auto;
+	/*display: inline-block;*/
+    /*float: left;*/
+    padding-top: 0px;
+	margin-top: 5px;
+	background: rgba(139, 203, 231, 0.6);
+    /*border-top: 1px solid rgba(255,255,255,1);*/
+}
+
+.crearEvento .crearTransaccion .float-100 {
+    padding-top: 15px;
+}
+
+.crearEvento .float:first-of-type {
+    padding-right: 5px;
+}
+
+.crearEvento .float:last-of-type {
+    padding-left: 5px;
+}
+
+.crearEvento .crearTransaccion .float:first-of-type {
+    padding-right: 5px;
+}
+
+.crearEvento .crearTransaccion .float:last-of-type {
+    padding-left: 5px;
+}
+
+.crearEvento .crearTransaccion .crearCampos .float:first-of-type {
+    padding-right: 0px;
+}
+
+.crearEvento .crearTransaccion .crearCampos .float:last-of-type {
+    padding-left: 0px;
+}
+
+.crearEvento label {
+    display: block;
+    padding: 0 0 5px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    font-size: 11px;
+}
+
+.crearEvento label i {
+    margin-right: 5px; /* Gap between icon and text */
+    display: inline-block;
+    width: 10px;
+}
+
+.crearEvento input[type=text],
+.crearEvento input[type=password],
+.crearEvento textarea,
+.crearEvento select  {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 3px solid #ebe6e2;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.crearEvento input[type=text]:hover,
+.crearEvento input[type=password]:hover,
+.crearEvento textarea:hover,
+.crearEvento select:hover {
+    border-color: #CCC;
+}
+
+.crearEvento label:hover ~ input {
+    border-color: #CCC;
+}
+
+.crearEvento input[type=text]:focus,
+.crearEvento input[type=password]:focus,
+.crearEvento type=textarea:focus {
+    border-color: #BBB;
+    outline: none; /* Remove Chrome's outline */
+}
+
+.crearEvento input[type=submit],
+.crearEvento .log-twitter, 
+.crearEvento input[type=button] {
+    /* Size and position */
+    width: 49%;
+    height: 38px;
+    float: left;
+    position: relative;
+
+    /* Styles */
+    box-shadow: inset 0 1px rgba(255,255,255,0.3);
+    border-radius: 3px;
+    cursor: pointer;
+
+    /* Font styles */
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 38px; /* Same as height */
+    text-align: center;
+    font-weight: bold;
+}
+
+.crearEvento .log-twitter {
+    width: 19%;
+}
+
+.crearEvento input[type=submit], 
+.crearEvento input[type=button] {
+    margin-left: 1%;
+    background: #fbd568; /* Fallback */
+    background: -moz-linear-gradient(#fbd568, #ffb347);
+    background: -ms-linear-gradient(#fbd568, #ffb347);
+    background: -o-linear-gradient(#fbd568, #ffb347);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fbd568), to(#ffb347));
+    background: -webkit-linear-gradient(#fbd568, #ffb347);
+    background: linear-gradient(#fbd568, #ffb347);
+    border: 1px solid #f4ab4c;
+    color: #996319;
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+}
+
+.crearEvento .log-twitter {
+    margin-right: 1%;
+    background: #34a5cf; /* Fallback */
+    background: -moz-linear-gradient(#34a5cf, #2a8ac4);
+    background: -ms-linear-gradient(#34a5cf, #2a8ac4);
+    background: -o-linear-gradient(#34a5cf, #2a8ac4);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#34a5cf), to(#2a8ac4));
+    background: -webkit-linear-gradient(#34a5cf, #2a8ac4);
+    background: linear-gradient(#34a5cf, #2a8ac4);
+    border: 1px solid #2b8bc7;
+    color: #ffffff;
+    text-shadow: 0 -1px rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+
+.crearEvento input[type=submit]:hover, 
+.crearEvento .log-twitter:hover , 
+.crearEvento input[type=button]:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+.crearEvento input[type=submit]:active,
+.crearEvento .log-twitter:active, 
+.crearEvento input[type=button]:active{
+    top: 1px;
+}
+
+/* Fallback fro broswers that don't support box shadows */
+.no-boxshadow 
+.crearEvento input[type=submit]:hover , 
+.crearEvento input[type=button]:hover{
+    background: #ffb347;
+}
+
+.no-boxshadow .crearEvento .log-twitter:hover {
+    background: #2a8ac4;
+}
+
+.crearEvento p:last-of-type {
+    clear: both;    
+}
+
+.crearEvento .opt {
+    text-align: right;
+    margin-right: 3px;
+}
+
+.crearEvento label[for=showPassword] {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.crearEvento input[type=checkbox] {
+    vertical-align: middle;
+    margin: -1px 5px 0 1px;
+}

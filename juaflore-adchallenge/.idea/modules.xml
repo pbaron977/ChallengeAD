@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/juaflore-adchallenge.iml" filepath="$PROJECT_DIR$/juaflore-adchallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle/juaflore-adchallenge-bundle.iml" filepath="$PROJECT_DIR$/bundle/juaflore-adchallenge-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/content/juaflore-adchallenge-content.iml" filepath="$PROJECT_DIR$/content/juaflore-adchallenge-content.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="ToDoListDialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Content">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listtitle
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="List title"
+                        name="./listtitle"
+                        xtype="textfield"/>
+                    <itemsleft
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Items Left"
+                        name="./itemsleft"
+                        xtype="textfield"/>
+                    <clearcompleted
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Clear completed"
+                        name="./clearcompleted"
+                        xtype="textfield"/>
+                    <enablepagination
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="\{Boolean}false"
+                        fieldLabel="Enable pagination"
+                        name="./enablepagination"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(comp, isChecked) {&#xa;   var dlg = comp.findParentByType('tabpanel');&#xa;   isChecked ? dlg.unhideTabStripItem(1)  : dlg.hideTabStripItem(1)&#xa;}"/>
+                    </enablepagination>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Pagination">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <tasksperpage
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Number tasks per page"
+                        name="./tasksperpage"
+                        xtype="textfield"/>
+                    <maxlimittasks
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="\{Boolean}false"
+                        fieldLabel="Limit max number tasks per page"
+                        name="./maxlimittasks"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(comp, val, isChecked) { &#xa;&#x9;var dlg = comp.findParentByType(&quot;dialog&quot;); &#xa;&#x9;var textfield = dlg.getField(&quot;./maxtasks&quot;); &#xa;&#x9;isChecked ? textfield.disable() : textfield.enable(); &#xa;}"/>
+                    </maxlimittasks>
+                    <maxtasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Max number tasks per page"
+                        name="./maxtasks"
+                        xtype="textfield"/>
+                </items>
+            </tab2>
+        </items>
+    </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        loadcontent="function(dialog) {&#xa;    dialog.findByType('tabpanel')[0].hideTabStripItem(1);&#xa;}"/>
+</jcr:root>

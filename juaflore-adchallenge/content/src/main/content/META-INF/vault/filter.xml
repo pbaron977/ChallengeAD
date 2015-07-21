@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/adchallenge"/>
+    <filter root="/content/AdChallenge"/>
+    <filter root="/libs/foundation/components/page"/>
+    <filter root="/libs/foundation/global.jsp"></filter>
+</workspaceFilter>
