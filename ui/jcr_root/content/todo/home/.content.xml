@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-21T05:02:49.676Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/helios-challenge/templates/page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TODO"
+        sling:resourceType="helios-challenge/components/page-component">
+        <parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <todo_list_component
+                jcr:created="{Date}2015-07-20T02:05:37.128Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-21T05:02:49.669Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="helios-challenge/components/todo-list-component"
+                activeButtonLabel="Active"
+                allButtonLabel="All"
+                backgroundColor="CCFFFF"
+                clearButtonLabel="Clear completed"
+                completedButtonLabel="Completed"
+                enablePagination="on"
+                itemsLeftLabel="items left"
+                limitTasksEnabled="on"
+                listMode="active"
+                maxTasksNumber="100"
+                placeholder="What needs to be done...."
+                serviceURL="http://192.168.59.103:14502"
+                tasksXPage="5"/>
+        </parsys>
+        <footer
+            jcr:lastModified="{Date}2015-07-20T18:16:32.917Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/text"
+            text="&lt;p style=&quot;text-align: center;&quot;>Double click to edit a todo&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Written by VamS&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Part of MVC&lt;/p>&#xa;"
+            textIsRich="true"/>
+        <tile
+            jcr:lastModified="{Date}2015-07-20T19:37:38.235Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="TODOS"
+            sling:resourceType="foundation/components/title"
+            type="large"/>
+    </jcr:content>
+</jcr:root>

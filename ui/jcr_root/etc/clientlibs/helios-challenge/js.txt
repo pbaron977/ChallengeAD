@@ -1,0 +1,6 @@
+#base=js
+angular.min.js
+jquery.min.js
+bootstrap.min.js
+dirPagination.js
+todo-list-component.js

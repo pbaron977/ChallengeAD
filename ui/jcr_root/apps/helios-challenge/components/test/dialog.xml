@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Todo List Configuration"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        id="configurationTabPanel"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <general
+                jcr:primaryType="cq:Panel"
+                title="General&#xa;">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder
+                        jcr:primaryType="cq:Widget"
+                        emptyText="What needs to be done?"
+                        fieldDescription="Add task help message"
+                        fieldLabel="Add task placeholder"
+                        name="./placeholder"
+                        xtype="textfield"/>
+                    <service-url
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="TODO list service URL."
+                        fieldLabel="Service URL"
+                        name="./serviceURL"
+                        xtype="textfield"/>
+                </items>
+            </general>
+            <todo-panel
+                jcr:primaryType="cq:Panel"
+                title="Panel Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <itemsLeftLabel
+                        jcr:primaryType="cq:Widget"
+                        emptyText="items left"
+                        fieldLabel="Items Left Label"
+                        name="./itemsLeftLabel"
+                        xtype="textfield"/>
+                    <defaultListMode
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Select the default mode in the todo list."
+                        fieldLabel="Default List Mode"
+                        name="./listMode"
+                        type="radiogroup"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <all
+                                jcr:primaryType="cq:Widget"
+                                id="listMode"
+                                text="All"
+                                value="all"
+                                xtype="radio"/>
+                            <active
+                                jcr:primaryType="cq:Widget"
+                                id="listMode"
+                                text="Active"
+                                value="active"
+                                xtype="radio"/>
+                            <completed
+                                jcr:primaryType="cq:Widget"
+                                id="listMode"
+                                text="Completed"
+                                value="completed"
+                                xtype="radio"/>
+                        </options>
+                    </defaultListMode>
+                    <allButtonLabel
+                        jcr:primaryType="cq:Widget"
+                        emptyText="All"
+                        fieldLabel="All Button Label"
+                        name="./allButtonLabel"
+                        xtype="textfield"/>
+                    <activeButtonLabel
+                        jcr:primaryType="cq:Widget"
+                        emptyText="Active"
+                        fieldLabel="Active Button Label"
+                        name="./activeButtonLabel"
+                        xtype="textfield"/>
+                    <completedButtonLabel
+                        jcr:primaryType="cq:Widget"
+                        emptyText="Completed"
+                        fieldLabel="Completed Button Label"
+                        name="./completedButtonLabel"
+                        xtype="textfield"/>
+                    <clearButtonLabel
+                        jcr:primaryType="cq:Widget"
+                        emptyText="Clear"
+                        fieldLabel="Clear Button Label"
+                        name="./clearButtonLabel"
+                        xtype="textfield"/>
+                    <enablePaginationCheck
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enable TODO list pagination"
+                        fieldLabel="Enable Pagination"
+                        id="enablePaginationCheck"
+                        name="./enablePagination"
+                        xtype="checkbox">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            check="function(enablePaginationCheck, isChecked){&#xa;&#x9;var configurationTabPanel = CQ.Ext.getCmp(&quot;configurationTabPanel&quot;);&#xa;&#x9;isChecked ? configurationTabPanel.unhideTabStripItem(&quot;paginationTab&quot;) : configurationTabPanel.hideTabStripItem(&quot;paginationTab&quot;);&#xa;}"/>
+                    </enablePaginationCheck>
+                </items>
+            </todo-panel>
+            <pagination
+                jcr:primaryType="cq:Panel"
+                id="paginationTab"
+                title="Pagination">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <tasksXPage
+                        jcr:primaryType="cq:Widget"
+                        emptyText="5"
+                        fieldLabel="Tasks per page"
+                        name="./tasksXPage"
+                        xtype="numberfield"/>
+                    <tasksLimitCheck
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Do you want to limit the number of task to retrieve?"
+                        fieldLabel="Limit max number of tasks"
+                        name="./limitTasksEnabled"
+                        xtype="checkbox">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            check="function(check, isChecked){&#xa;  var maxTasksNumber = CQ.Ext.getCmp(&quot;maxTasksNumber&quot;);&#xa;  isChecked ? maxTasksNumber.show() : maxTasksNumber.hide();&#xa;}"/>
+                    </tasksLimitCheck>
+                    <maxTasksNumber
+                        jcr:primaryType="cq:Widget"
+                        emptyText="100"
+                        fieldLabel="Max number of tasks"
+                        hidden="{Boolean}true"
+                        id="maxTasksNumber"
+                        name="./maxTasksNumber"
+                        xtype="numberfield"/>
+                </items>
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    render="function(paginationTab){&#xa;  var enablePaginationCheck = CQ.Ext.getCmp(&quot;enablePaginationCheck&quot;);&#xa;  var configurationTabPanel = CQ.Ext.getCmp(&quot;configurationTabPanel&quot;);&#xa;  enablePaginationCheck.getValue() ? configurationTabPanel.unhideTabStripItem(paginationTab) : configurationTabPanel.hideTabStripItem(paginationTab);&#xa;}"/>
+            </pagination>
+        </items>
+    </items>
+</jcr:root>
