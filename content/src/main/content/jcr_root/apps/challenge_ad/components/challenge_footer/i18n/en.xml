@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:language="en"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder">
+    <configuration
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n_configuration_title"
+        sling:message="Header configuration EN"/>
+    <title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n_title"
+        sling:message="Enter english title here"/>
+</jcr:root>

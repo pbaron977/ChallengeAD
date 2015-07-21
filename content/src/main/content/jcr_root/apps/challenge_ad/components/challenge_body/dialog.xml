@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Config Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="TODOs Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <background_color
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Background color"
+                        name="./background_color"
+                        xtype="colorfield"/>
+                    <todo_placeholder_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Place Holder"
+                        name="./todo_placeholder_label"
+                        xtype="textfield"/>
+                    <todo_title_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="TODOs Title"
+                        name="./todo_title_label"
+                        xtype="textfield"/>
+                    <todo_item_left_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Items Left Label"
+                        name="./todo_item_left_label"
+                        xtype="textfield"/>
+                    <todo_all_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="All Label"
+                        name="./todo_all_label"
+                        xtype="textfield"/>
+                    <todo_completed_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Completed Label"
+                        name="./todo_completed_label"
+                        xtype="textfield"/>
+                    <todo_active_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Active Label"
+                        name="./todo_active_label"
+                        xtype="textfield"/>
+                    <todo_clear_label
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Clear Label"
+                        name="./todo_clear_label"
+                        xtype="textfield"/>
+                    <pagination_check
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enable Pagination"
+                        name="./pagination_check"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(field, value, checked) {&#xa;&#x9;var d = field.findParentByType('tabpanel'); &#xa;&#xa;&#x9;if(checked == true){&#xa;&#x9;&#x9;d.unhideTabStripItem('tab2');&#xa;&#x9;} else { &#xa;&#x9;&#x9;d.hideTabStripItem('tab2');&#xa;&#x9;}&#xa;}"/>
+                    </pagination_check>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                id="tab2"
+                itemId="tab2"
+                title="Pagination Configuration">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <task_per_page
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Task per page"
+                        name="./task_per_page"
+                        xtype="numberfield"/>
+                    <limit_max_tasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Limit max number of tasks"
+                        name="./limit_max_tasks"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(field, value, checked) {var t = field.findParentByType('dialog').getField('./max_tasks'); if(checked){t.enable();} else {t.disable();}}"/>
+                    </limit_max_tasks>
+                    <max_tasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Max number of tasks"
+                        name="./max_tasks"
+                        xtype="numberfield">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field, record, path) {var t = field.findParentByType('dialog').getField('./limit_max_tasks'); if(t.getValue() == 'true'){field.enable();} else {field.disable();}}"/>
+                    </max_tasks>
+                </items>
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    loadcontent="function(dialog, recs, opts, success) {&#xa;&#x9;var check = dialog.getField('./pagination_check'); &#xa;&#x9;var t = dialog.find('xtype' ,'tabpanel')[0]; &#xa;&#xa;&#x9;if(check.getValue()){&#xa;&#x9;&#x9;t.unhideTabStripItem('tab2');&#xa;&#x9;} else {&#xa;&#x9;&#x9;t.hideTabStripItem('tab2');&#xa;&#x9;}&#xa;}"/>
+            </tab2>
+        </items>
+    </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        loadcontent="function(dialog){&#xa;&#x9;var checkField = dialog.getField('./pagination_check');&#xa;&#x9;var tabpanel1 = dialog.items.get(0);&#xa;&#x9;var tabpanel2 = tabpanel1.items;&#xa;&#x9;var tab2 = tabpanel2.items[1];&#xa;&#xa;&#x9;if(checkField.getValue() == true){&#xa;&#x9;&#x9;//alert(&quot;Checkbox ACTIVO = &quot; + checkField.getValue());&#xa;&#x9;&#x9;tabpanel1.unhideTabStripItem('tab2');&#xa;&#x9;}else if(checkField.getValue() == &quot;&quot;){&#xa;&#x9;&#x9;//alert(&quot;Checkbox DESACTIVADO = &quot; + checkField.getValue());&#xa;&#x9;&#x9;tabpanel1.hideTabStripItem('tab2');&#xa;&#x9;}else{&#xa;&#x9;&#x9;//alert(&quot;Hmmmm &quot; + checkField.getValue());&#xa;&#x9;}&#xa;}"/>
+</jcr:root>

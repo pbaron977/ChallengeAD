@@ -1,0 +1,7 @@
+#base=scripts
+app.js
+base.js
+director.js
+handlebars.js
+jquery.js
+jquery.pajinate.js

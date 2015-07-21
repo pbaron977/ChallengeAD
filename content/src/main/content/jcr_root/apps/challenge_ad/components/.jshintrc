@@ -1,0 +1,32 @@
+{
+    "extends": "../../../.jshintrc",
+    "predef": [
+        "use",
+        "Packages",
+        "properties",
+        "pageProperties",
+        "inheritedPageProperties",
+        "component",
+        "componentContext",
+        "currentDesign",
+        //"currentNode",
+        "currentPage",
+        "currentSession",
+        "currentStyle",
+        "designer",
+        "editContext",
+        "log",
+        //"out",
+        "pageManager",
+        //"reader",
+        "request",
+        "resource",
+        "resourceDesign",
+        "resourcePage",
+        "response",
+        "sling",
+        //"slyWcmHelper",
+        "wcmmode"//,
+        //"xssAPI"
+    ]
+}
