@@ -50,8 +50,6 @@ jQuery(function ($) {
 				}.bind(this)
 			}).init('/all');
 			
-			/*var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?tags=dogs&tagmode=any&format=json&jsoncallback=?";
-			
 			function getval( callback) {
 				var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?tags=dogs&tagmode=any&format=json&jsoncallback=?";
 
@@ -67,8 +65,10 @@ jQuery(function ($) {
 			
 			function createTask(data) {
 				$.each( data.items, function( i, item ) {
-					//lista.add(item.title + " - " + item.author);
-					$("<input>").attr("class", "task").attr("hidden", "true").attr("value", item.title + " - " + item.author).appendTo(".service");
+					$("#new-todo").val(item.title + " - " + item.author);
+					var e = jQuery.Event("keyup");
+					e.which = 13; //enter key
+					$('#new-todo').trigger(e);
 			        if ( i === 20 ) {
 			          return false;
 			        }
@@ -76,7 +76,7 @@ jQuery(function ($) {
 			}
 			
 			getval(createTask);
-			*/
+			
 			
 			this.render();
 		},
