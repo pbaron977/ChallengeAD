@@ -1,0 +1,7 @@
+package prodigious.adchall.servlets;
+
+import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
+
+public class ListServlet extends SlingSafeMethodsServlet {
+
+}

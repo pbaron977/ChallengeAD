@@ -1,0 +1,8 @@
+package prodigious.adchall;
+
+
+public interface ListService {
+	
+	public String[] getTasks();
+
+}

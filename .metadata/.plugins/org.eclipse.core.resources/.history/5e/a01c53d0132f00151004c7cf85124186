@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <content
+                jcr:primaryType="cq:Panel"
+                title="Content">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <header
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="List Header Label"
+                        name="./list"
+                        xtype="textfield"/>
+                    <tasks
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Tasks Left Label"
+                        name="./tasks"
+                        xtype="textfield"/>
+                    <all
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="All Tasks Label"
+                        name="./all"
+                        xtype="textfield"/>
+                    <active
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Active Tasks Label"
+                        name="./active"
+                        xtype="textfield"/>
+                    <completed
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Completed Tasks Label"
+                        name="./completed"
+                        xtype="textfield"/>
+                    <opts
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Default Selected Option"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <all
+                                jcr:primaryType="cq:Widget"
+                                text="All"
+                                value="All"/>
+                            <active
+                                jcr:primaryType="cq:Widget"
+                                text="Active"
+                                value="Active"/>
+                            <completed
+                                jcr:primaryType="cq:Widget"
+                                text="Completed"
+                                value="Completed"/>
+                        </options>
+                    </opts>
+                    <clear
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Clear Completed Label"
+                        name="./clear"
+                        xtype="textfield"/>
+                </items>
+            </content>
+            <pagination
+                jcr:primaryType="cq:Panel" 
+                title="Pagination"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                	 <page
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Tasks Per Page"
+                        name="./page"
+                        xtype="textfield"/>
+                     <show
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Limit Tasks Shown"
+                        name="./setmax"
+                        defaultValue="false"
+						type="checkbox"
+						xtype="selection">
+                        <listeners jcr:primaryType="nt:unstructured" 
+                        	selectionchanged="function(comp, val, isChecked) { 
+                			var panel = comp.findParentByType(&quot;panel&quot;); 
+                			var max = panel.getComponent(&quot;max&quot;); 
+                			isChecked ? max.show() : max.hide(); 
+            			}"/>
+                     </show>
+                	 <max
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Max Task to Show"
+                        name="./max"
+                        itemId="max"
+                        xtype="textfield"/>
+                </items>
+        	</pagination>
+        </items>
+    </items>
+</jcr:root>

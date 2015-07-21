@@ -1,0 +1,19 @@
+package prodigious.adchall.impl;
+
+import java.util.List;
+
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Service;
+
+import prodigious.adchall.ListService;
+
+@Service
+@Component(metatype = false)
+public class ListServiceImpl implements ListService {
+
+	public List<String> getTasks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

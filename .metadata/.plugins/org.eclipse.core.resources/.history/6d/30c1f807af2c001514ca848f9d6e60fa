@@ -1,0 +1,14 @@
+package prodigious.adchall.impl;
+
+import java.util.List;
+
+import prodigious.adchall.ListService;
+
+public class ListServiceImpl implements ListService {
+
+	public List<String> getTasks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

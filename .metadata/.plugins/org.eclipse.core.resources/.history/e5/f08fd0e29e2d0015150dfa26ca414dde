@@ -1,0 +1,72 @@
+<%--
+
+  body component.
+
+  this is the body Comp
+
+--%><%
+%><%@include file="/libs/foundation/global.jsp"%><%
+%><%@page session="false" %><%
+%><%
+	// TODO add you code here
+%>
+<div  align="left" style="background-color:#7D2323">
+	<font face="verdana" size="2" color="black">
+		<%=properties.get("list","configure list field")%>
+    </font>
+    <form method="POST">
+    	<table>
+			<tr>
+            	<td>
+                	<font face="verdana" size="2" color="black">Elemento 1</font>
+                    <input type="checkbox" name="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font face="verdana" size="2" color="black">Elemento 2</font>
+			  		<input type="checkbox" name="2">
+                </td>
+            </tr>
+            <tr>
+            	<td>
+                	<font face="verdana" size="2" color="black">Elemento 3</font>
+                    <input type="checkbox" name="1">
+                </td>
+            </tr>
+		</table>
+        <table style="width:100%">
+  			<tr>
+    			<td>
+					<%=properties.get("tasks","items left button field")%>
+                </td>
+    			<td>
+					<table style="width:100%">
+                		<tr>
+                    		<td>
+                            	<button type="button">
+                                	<%=properties.get("all","all button field")%>
+                                </button>
+                            </td>
+                            <td>
+								<button type="button">
+                                	<%=properties.get("active","active button field")%>
+                                </button>
+                            </td>
+                            <td>
+								<button type="button">
+                                	<%=properties.get("completed","complete button field")%>
+                                </button>
+                            </td>
+                         </tr>
+                    </table>
+                </td> 
+    			<td>
+                	<button type="button">
+						<%=properties.get("clear","clear button field")%>
+                	</button>
+                </td>
+  			</tr>
+		</table>
+    </form>
+</div>

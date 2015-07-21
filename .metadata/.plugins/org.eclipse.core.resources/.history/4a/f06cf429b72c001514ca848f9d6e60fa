@@ -1,0 +1,19 @@
+package prodigious.adchall.servlets;
+
+import java.io.IOException;
+
+import org.apache.felix.scr.annotations.sling.SlingServlet;
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+
+@SlingServlet(paths="/chall/list", methods = "POST", metatype=true )
+public class ListServlet extends org.apache.sling.api.servlets.SlingAllMethodsServlet{
+
+	@Override
+	protected void doPost(SlingHttpServletRequest request, SlingHttpServletResponse response) 
+			throws IOException{
+		
+	}
+	
+	
+}

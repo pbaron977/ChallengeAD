@@ -1,0 +1,2 @@
+taskNum=100
+taskPref=TodoTask

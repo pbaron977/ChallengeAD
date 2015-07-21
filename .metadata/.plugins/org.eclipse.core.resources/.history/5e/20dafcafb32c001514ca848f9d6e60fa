@@ -1,0 +1,10 @@
+package prodigious.adchall.servlets;
+
+import org.apache.felix.scr.annotations.sling.SlingServlet;
+import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
+
+@SuppressWarnings("serial")
+@SlingServlet(resourceTypes = "adchall/components/body")
+public class ListServlet extends SlingSafeMethodsServlet {
+
+}

@@ -1,0 +1,628 @@
+2015-07-17 11:31:58,867 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: prodigious:adchall:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/pom.xml.
+2015-07-17 11:32:00,465 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: prodigious:adchall:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/pom.xml.
+2015-07-17 11:53:21,402 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/pom.xml
+2015-07-17 11:53:21,407 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'bundle/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/pom.xml
+2015-07-17 11:53:21,407 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'content/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/pom.xml
+2015-07-17 11:53:23,221 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: prodigious:adchall:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/pom.xml.
+2015-07-17 11:53:23,710 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: prodigious:adchall-bundle:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/pom.xml.
+2015-07-17 11:53:23,906 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: prodigious:adchall-content:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/pom.xml.
+2015-07-17 11:53:24,241 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /adchall-bundle/src/main/java
+2015-07-17 11:53:24,249 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /adchall-bundle/src/test/java
+2015-07-17 11:53:24,597 [Worker-14] ERROR o.e.m.c.i.embedder.EclipseLogger - Manifest prodigious:adchall-bundle:bundle:0.0.1-SNAPSHOT : The JAR is empty: dot
+2015-07-17 11:53:24,598 [Worker-14] ERROR o.e.m.c.i.embedder.EclipseLogger - Error(s) found in manifest configuration
+2015-07-17 11:53:27,807 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /adchall-content/src/main/java
+2015-07-17 11:53:27,808 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /adchall-content/src/main/content/jcr_root
+2015-07-17 11:53:27,812 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /adchall-content/src/test/java
+2015-07-17 11:53:27,858 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 6 sec
+2015-07-17 11:53:28,759 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 11:53:28,760 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 11:53:28,763 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 11:53:28,763 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 11:53:29,095 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 11:53:29,113 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-07-17 11:53:29,131 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 11:53:29,133 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-17 11:59:18,667 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 11:59:18,675 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2015-07-17 11:59:18,683 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 11:59:18,683 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-17 13:03:44,446 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:03:44,447 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:03:44,448 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:03:44,448 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:05:39,631 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/pom.xml
+2015-07-17 13:05:39,632 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'bundle/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/bundle/pom.xml
+2015-07-17 13:05:39,632 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'content/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/content/pom.xml
+2015-07-17 13:05:39,792 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/pom.xml.
+2015-07-17 13:05:39,841 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test-bundle:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/bundle/pom.xml.
+2015-07-17 13:05:39,915 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test-content:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/content/pom.xml.
+2015-07-17 13:05:40,037 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test-bundle/src/main/java
+2015-07-17 13:05:40,040 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test-bundle/src/test/java
+2015-07-17 13:05:40,136 [Worker-22] ERROR o.e.m.c.i.embedder.EclipseLogger - Manifest test:test-bundle:bundle:0.0.1-SNAPSHOT : The JAR is empty: dot
+2015-07-17 13:05:40,137 [Worker-22] ERROR o.e.m.c.i.embedder.EclipseLogger - Error(s) found in manifest configuration
+2015-07-17 13:05:40,231 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test-content/src/main/java
+2015-07-17 13:05:40,232 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test-content/src/main/content/jcr_root
+2015-07-17 13:05:40,235 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test-content/src/test/java
+2015-07-17 13:05:40,269 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 0 sec
+2015-07-17 13:05:40,778 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:05:40,778 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/bundle/src/main/resources
+2015-07-17 13:05:40,780 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:05:40,780 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/bundle/src/test/resources
+2015-07-17 13:05:40,943 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:05:40,944 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-07-17 13:05:40,947 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:05:40,947 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/content/src/test/resources
+2015-07-17 13:06:43,214 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:06:43,214 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:06:43,216 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:06:43,216 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:06:43,311 [Worker-20] ERROR o.e.m.c.i.embedder.EclipseLogger - Manifest prodigious:adchall-bundle:bundle:0.0.1-SNAPSHOT : The default package '.' is not permitted by the Import-Package syntax. 
+ This can be caused by compile errors in Eclipse because Eclipse creates 
+valid class files regardless of compile errors.
+The following package(s) import from the default package [prodigious.adchall.impl]
+2015-07-17 13:06:43,311 [Worker-20] ERROR o.e.m.c.i.embedder.EclipseLogger - Error(s) found in manifest configuration
+2015-07-17 13:06:50,312 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:06:50,312 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:06:50,314 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:06:50,314 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:06:55,781 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:06:55,781 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:06:55,783 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:06:55,783 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:07:38,231 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:07:38,231 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:07:38,232 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:07:38,232 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:08:38,987 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:08:38,988 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:08:38,990 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:08:38,990 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:09:23,186 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:09:23,186 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:09:23,188 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:09:23,189 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:09:57,068 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:09:57,068 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:09:57,069 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:09:57,069 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:25:20,725 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:25:20,726 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:25:20,728 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:25:20,728 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:25:25,616 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:25:25,616 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:25:25,617 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:25:25,618 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:26:08,658 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:26:08,658 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:26:08,660 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:26:08,660 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:26:19,818 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:26:19,818 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:26:19,819 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:26:19,820 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:33:59,558 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:33:59,559 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:33:59,560 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:33:59,560 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:34:14,958 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:34:14,959 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:34:14,960 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:34:14,961 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:37:30,867 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/pom.xml
+2015-07-17 13:37:30,867 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'core/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/pom.xml
+2015-07-17 13:37:30,868 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'ui.apps/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/pom.xml
+2015-07-17 13:37:30,868 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'ui.content/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/pom.xml
+2015-07-17 13:37:30,868 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'it.tests/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/pom.xml
+2015-07-17 13:37:30,868 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info 'it.launcher/pom.xml' /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.launcher/pom.xml
+2015-07-17 13:37:32,967 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/pom.xml.
+2015-07-17 13:37:33,210 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.core:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/pom.xml.
+2015-07-17 13:37:33,587 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.apps:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/pom.xml.
+2015-07-17 13:37:33,633 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.content:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/pom.xml.
+2015-07-17 13:37:33,675 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.tests:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/pom.xml.
+2015-07-17 13:37:34,005 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.launcher:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.launcher/pom.xml.
+2015-07-17 13:37:35,275 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.core/src/main/java
+2015-07-17 13:37:35,279 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.core/src/test/java
+2015-07-17 13:37:35,698 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.core:bundle:0.0.1-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+2015-07-17 13:37:35,699 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.core:bundle:0.0.1-SNAPSHOT : The JAR is empty: The instructions for the JAR named test.core did not cause any content to be included, this is likely wrong
+2015-07-17 13:37:36,735 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.apps/src/main/java
+2015-07-17 13:37:36,735 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.apps/src/main/content/META-INF
+2015-07-17 13:37:36,737 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.apps/src/main/content/jcr_root
+2015-07-17 13:37:36,741 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.apps/src/test/java
+2015-07-17 13:37:36,793 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.tests/src/main/java
+2015-07-17 13:37:36,796 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.tests/src/test/java
+2015-07-17 13:37:36,944 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+2015-07-17 13:37:36,945 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : Unused Export-Package instructions: [test.it.tests.*] 
+2015-07-17 13:37:36,945 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : The JAR is empty: The instructions for the JAR named test.it.tests did not cause any content to be included, this is likely wrong
+2015-07-17 13:37:37,032 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.content/src/main/java
+2015-07-17 13:37:37,032 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.content/src/main/content/META-INF
+2015-07-17 13:37:37,034 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.content/src/main/content/jcr_root
+2015-07-17 13:37:37,037 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.content/src/test/java
+2015-07-17 13:37:37,135 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.launcher/src/main/java
+2015-07-17 13:37:37,138 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.launcher/src/test/java
+2015-07-17 13:37:37,477 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 6 project(s) in 6 sec
+2015-07-17 13:37:38,141 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-17 13:37:39,575 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/pom.xml.
+2015-07-17 13:37:39,681 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.content:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/pom.xml.
+2015-07-17 13:37:39,825 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.launcher:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.launcher/pom.xml.
+2015-07-17 13:37:40,155 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.apps:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/pom.xml.
+2015-07-17 13:37:40,280 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.core:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/pom.xml.
+2015-07-17 13:37:40,341 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.tests:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/pom.xml.
+2015-07-17 13:37:53,670 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 15 sec
+2015-07-17 13:37:53,735 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-17 13:37:54,398 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.core:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/pom.xml.
+2015-07-17 13:37:54,463 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.tests:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/pom.xml.
+2015-07-17 13:38:00,792 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.core/src/main/java
+2015-07-17 13:38:00,793 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.core/src/test/java
+2015-07-17 13:38:01,077 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.core:bundle:0.0.1-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+2015-07-17 13:38:01,078 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.core:bundle:0.0.1-SNAPSHOT : The JAR is empty: The instructions for the JAR named test.core did not cause any content to be included, this is likely wrong
+2015-07-17 13:38:01,490 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2015-07-17 13:38:01,899 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-17 13:38:02,439 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.apps:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/pom.xml.
+2015-07-17 13:38:02,478 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.content:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/pom.xml.
+2015-07-17 13:38:06,312 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.apps/src/main/java
+2015-07-17 13:38:06,312 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.apps/src/main/content/META-INF
+2015-07-17 13:38:06,313 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.apps/src/main/content/jcr_root
+2015-07-17 13:38:06,314 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.apps/src/test/java
+2015-07-17 13:38:06,390 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2015-07-17 13:38:06,706 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-17 13:38:07,333 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.content:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/pom.xml.
+2015-07-17 13:38:07,388 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: test:test.ui.apps:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/pom.xml.
+2015-07-17 13:38:10,588 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.content/src/main/java
+2015-07-17 13:38:10,588 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.content/src/main/content/META-INF
+2015-07-17 13:38:10,588 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test.ui.content/src/main/content/jcr_root
+2015-07-17 13:38:10,589 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.ui.content/src/test/java
+2015-07-17 13:38:10,666 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2015-07-17 13:38:10,979 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-17 13:38:11,710 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.tests:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/pom.xml.
+2015-07-17 13:38:11,773 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.core:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/pom.xml.
+2015-07-17 13:38:15,003 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.tests/src/main/java
+2015-07-17 13:38:15,003 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.tests/src/test/java
+2015-07-17 13:38:15,234 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+2015-07-17 13:38:15,235 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : Unused Export-Package instructions: [test.it.tests.*] 
+2015-07-17 13:38:15,235 [main] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : The JAR is empty: The instructions for the JAR named test.it.tests did not cause any content to be included, this is likely wrong
+2015-07-17 13:38:15,341 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2015-07-17 13:38:15,913 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-17 13:38:16,018 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test.it.launcher:0.0.1-SNAPSHOT @ /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.launcher/pom.xml.
+2015-07-17 13:38:17,888 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.launcher/src/main/java
+2015-07-17 13:38:17,889 [main] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test.it.launcher/src/test/java
+2015-07-17 13:38:17,948 [main] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2015-07-17 13:38:18,825 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:18,825 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/src/main/resources
+2015-07-17 13:38:19,241 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating 1 MetaType Descriptors in /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/target/classes/OSGI-INF/metatype/test.test.core.impl.schedulers.SimpleScheduledTask.xml
+2015-07-17 13:38:19,249 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing 1 Service Component Descriptors to /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/target/classes/OSGI-INF/test.test.core.impl.HelloServiceImpl.xml
+2015-07-17 13:38:19,250 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing 1 Service Component Descriptors to /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/target/classes/OSGI-INF/test.test.core.impl.filters.LoggingFilter.xml
+2015-07-17 13:38:19,250 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing 1 Service Component Descriptors to /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/target/classes/OSGI-INF/test.test.core.impl.listeners.SimpleResourceListener.xml
+2015-07-17 13:38:19,251 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing 1 Service Component Descriptors to /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/target/classes/OSGI-INF/test.test.core.impl.schedulers.SimpleScheduledTask.xml
+2015-07-17 13:38:19,252 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing 1 Service Component Descriptors to /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/target/classes/OSGI-INF/test.test.core.impl.servlets.SimpleServlet.xml
+2015-07-17 13:38:19,257 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:19,257 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/core/src/test/resources
+2015-07-17 13:38:19,753 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:19,753 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/src/main/resources
+2015-07-17 13:38:19,832 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:19,833 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.tests/src/test/resources
+2015-07-17 13:38:20,029 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Manifest test:test.it.tests:bundle:0.0.1-SNAPSHOT : Unused Export-Package instructions: [test.it.tests.*] 
+2015-07-17 13:38:20,121 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,121 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.launcher/src/main/resources
+2015-07-17 13:38:20,123 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,123 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/it.launcher/src/test/resources
+2015-07-17 13:38:20,685 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,685 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/META-INF
+2015-07-17 13:38:20,687 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,688 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources to ../vault-work/META-INF
+2015-07-17 13:38:20,701 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 41 resources
+2015-07-17 13:38:20,722 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,723 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.apps/src/test/resources
+2015-07-17 13:38:20,780 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,780 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/META-INF
+2015-07-17 13:38:20,781 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,782 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources to ../vault-work/META-INF
+2015-07-17 13:38:20,788 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2015-07-17 13:38:20,801 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:38:20,801 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/test/ui.content/src/test/resources
+2015-07-17 13:39:16,322 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:39:16,323 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:39:16,325 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:39:16,325 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:40:04,968 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:40:04,969 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:40:04,970 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:40:04,970 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:40:57,956 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:40:57,956 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:40:57,957 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:40:57,957 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:43:16,974 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:43:16,975 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:43:16,976 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:43:16,976 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:43:50,921 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:43:50,921 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:43:50,923 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:43:50,923 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:44:08,442 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:44:08,442 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:44:08,443 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:44:08,443 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:53:07,579 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:53:07,579 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:53:07,579 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:53:07,580 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:53:29,089 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:53:29,090 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:53:29,093 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:53:29,093 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 13:54:57,987 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:54:57,987 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 13:54:57,988 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 13:54:57,988 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 14:08:10,239 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 14:08:10,239 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 14:08:10,240 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 14:08:10,240 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 14:12:40,897 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 14:12:40,898 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 14:12:40,898 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 14:12:40,898 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 14:13:01,980 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juasepul/Desktop/challenge/ChallengeAD/adchall
+2015-07-17 14:13:01,980 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/juasepul/.m2/settings.xml clean install -PautoInstallPackage
+2015-07-17 15:21:41,663 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:21:41,664 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 15:21:41,665 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:21:41,665 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 15:21:42,775 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:21:42,776 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 15:21:42,777 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:21:42,778 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 15:33:53,206 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:33:53,206 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 15:33:53,207 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:33:53,207 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 15:33:54,295 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:33:54,295 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 15:33:54,296 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:33:54,296 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 15:58:42,103 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:58:42,104 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 15:58:42,105 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:58:42,106 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 15:58:43,202 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:58:43,203 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 15:58:43,204 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 15:58:43,204 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:13:31,627 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:13:31,627 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:13:31,628 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:13:31,628 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:13:32,734 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:13:32,734 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:13:32,738 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:13:32,738 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:22:02,529 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:22:02,529 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:22:02,530 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:22:02,530 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:22:03,634 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:22:03,635 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:22:03,636 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:22:03,636 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:51:52,859 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:51:52,859 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:51:52,860 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:51:52,860 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:51:54,175 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:51:54,175 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:51:54,176 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:51:54,176 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 16:52:46,632 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:52:46,632 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 16:52:46,633 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 16:52:46,633 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 17:02:03,143 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 17:02:03,143 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 17:02:03,143 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 17:02:03,144 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 17:02:04,287 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 17:02:04,287 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 17:02:04,288 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 17:02:04,288 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:20:15,874 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:20:15,899 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:20:15,902 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:20:15,902 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:20:16,851 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:20:16,852 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:20:16,855 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:20:16,856 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:20:51,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:20:51,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:20:51,921 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:20:51,921 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:26:10,950 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:26:10,950 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:26:10,953 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:26:10,954 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:26:56,530 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:26:56,531 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:26:56,534 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:26:56,534 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:29:07,988 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:29:07,988 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:29:07,991 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:29:07,992 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:29:59,772 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:29:59,773 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:29:59,776 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:29:59,777 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:30:04,963 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:30:04,964 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:30:04,970 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:30:04,971 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:32:27,434 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:32:27,435 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:32:27,437 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:32:27,438 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:50:47,348 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:50:47,361 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:50:47,362 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:50:47,362 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 22:51:00,096 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:51:00,096 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 22:51:00,098 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 22:51:00,099 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 23:36:17,144 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 23:36:17,145 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 23:36:17,146 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 23:36:17,146 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-17 23:36:17,573 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 23:36:17,573 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-17 23:36:17,575 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-17 23:36:17,575 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 17:15:04,776 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:15:04,787 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 17:15:04,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:15:04,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 17:15:05,577 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:15:05,577 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 17:15:05,579 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:15:05,579 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 17:15:21,144 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:15:21,145 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 17:15:21,146 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:15:21,146 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 17:46:20,245 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:46:20,249 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2015-07-18 17:46:20,262 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:46:20,262 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 17:46:54,037 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:46:54,057 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 17:46:54,059 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:46:54,060 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 17:50:56,484 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:50:56,485 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 17:50:56,487 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:50:56,487 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 17:56:56,400 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:56:56,400 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 17:56:56,402 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:56:56,402 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 17:58:20,874 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:58:20,875 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 17:58:20,877 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 17:58:20,878 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 18:06:13,110 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:06:13,110 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:06:13,112 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:06:13,112 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:06:14,272 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:06:14,272 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:06:14,274 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:06:14,274 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:11:09,351 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:11:09,352 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:11:09,353 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:11:09,353 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:11:10,550 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:11:10,550 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:11:10,551 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:11:10,552 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:14:03,837 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:14:03,838 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:14:03,842 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:14:03,842 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:14:04,964 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:14:04,964 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:14:04,965 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:14:04,966 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:16:01,928 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:16:01,929 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:16:01,930 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:16:01,930 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:16:03,047 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:16:03,048 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-18 18:16:03,049 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:16:03,049 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-18 18:23:10,091 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:23:10,091 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 18:23:10,093 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:23:10,093 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 18:25:45,474 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:25:45,474 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 18:25:45,476 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:25:45,477 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 18:39:50,051 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:39:50,053 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 18:39:50,055 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:39:50,055 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 18:40:27,582 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:40:27,583 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 18:40:27,584 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:40:27,584 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 18:45:35,812 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:45:35,812 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 18:45:35,814 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:45:35,814 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-18 18:54:36,251 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:54:36,251 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-18 18:54:36,253 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-18 18:54:36,253 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 13:42:16,154 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:42:16,173 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-20 13:42:16,176 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:42:16,176 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-20 13:42:22,074 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:42:22,078 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2015-07-20 13:42:22,132 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:42:22,133 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 13:47:19,182 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:47:19,209 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 13:47:19,225 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:47:19,226 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 13:58:40,338 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:58:40,339 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 13:58:40,341 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 13:58:40,341 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 14:09:07,382 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:09:07,384 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 14:09:07,389 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:09:07,390 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 14:11:54,085 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:11:54,085 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-20 14:11:54,086 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:11:54,087 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-20 14:11:54,457 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:11:54,457 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/main/resources
+2015-07-20 14:11:54,458 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:11:54,458 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/bundle/src/test/resources
+2015-07-20 14:16:25,272 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:16:25,273 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 14:16:25,276 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:16:25,276 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 14:46:30,360 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:46:30,361 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 14:46:30,364 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:46:30,364 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 14:50:28,556 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:50:28,557 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 14:50:28,559 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:50:28,559 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 14:51:03,599 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:51:03,599 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 14:51:03,601 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 14:51:03,601 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 15:10:40,541 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:10:40,542 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 15:10:40,545 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:10:40,545 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 15:18:00,919 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:18:00,919 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 15:18:00,922 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:18:00,922 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 15:33:17,682 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:33:17,683 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 15:33:17,685 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:33:17,685 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 15:34:07,124 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:34:07,125 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 15:34:07,128 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:34:07,128 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 15:43:25,771 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:43:25,771 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 15:43:25,773 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 15:43:25,773 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:04:36,391 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:04:36,391 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:04:36,393 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:04:36,394 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:05:38,325 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:05:38,326 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:05:38,329 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:05:38,329 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:28:41,059 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:28:41,060 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:28:41,069 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:28:41,070 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:33:01,760 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:33:01,761 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:33:01,767 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:33:01,767 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:38:57,842 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:38:57,842 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:38:57,844 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:38:57,844 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:47:04,774 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:47:04,775 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:47:04,777 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:47:04,777 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:48:01,413 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:48:01,414 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:48:01,416 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:48:01,416 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:49:32,436 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:49:32,437 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:49:32,438 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:49:32,438 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:49:47,983 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:49:47,984 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:49:47,986 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:49:47,986 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:50:14,386 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:50:14,387 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 18:50:14,389 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:50:14,389 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 18:52:22,294 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:52:22,295 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-07-20 18:52:22,299 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 18:52:22,299 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 19:01:00,722 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:01:00,723 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 19:01:00,725 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:01:00,725 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 19:37:06,417 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:37:06,418 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 19:37:06,420 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:37:06,420 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 19:53:21,644 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:53:21,644 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-20 19:53:21,646 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:53:21,646 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 19:53:51,474 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:53:51,479 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2015-07-20 19:53:51,481 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 19:53:51,481 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 20:51:30,714 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 20:51:30,714 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 20:51:30,716 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 20:51:30,716 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 20:59:43,989 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 20:59:43,990 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 20:59:43,992 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 20:59:43,993 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 21:01:47,459 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:01:47,459 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 21:01:47,460 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:01:47,460 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 21:09:58,949 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:09:58,950 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 21:09:58,952 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:09:58,952 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 21:20:47,655 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:20:47,656 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 21:20:47,657 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:20:47,657 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 21:25:36,839 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:25:36,839 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-07-20 21:25:36,841 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:25:36,842 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 21:27:50,980 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:27:50,981 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 21:27:50,982 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:27:50,982 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 21:29:28,499 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:29:28,500 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-20 21:29:28,501 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 21:29:28,501 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources
+2015-07-20 22:37:36,275 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 22:37:36,275 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-20 22:37:36,276 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-20 22:37:36,276 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juasepul/Desktop/challenge/ChallengeAD/adchall/content/src/test/resources

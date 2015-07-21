@@ -1,0 +1,11 @@
+package prodigious.adchall;
+
+import java.util.List;
+
+import aQute.bnd.annotation.ConsumerType;
+
+public interface ListService {
+	
+	public List<String> getTasks(int first,int size, int max);
+
+}
