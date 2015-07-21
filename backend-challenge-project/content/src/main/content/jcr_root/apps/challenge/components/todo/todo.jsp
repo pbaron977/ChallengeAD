@@ -18,6 +18,7 @@ $( document ).ready(function() {
 	<ul id="todo-list"></ul>
 </section>
 <footer id="footer"></footer>
+<div id="service" class="service"></div>
 <script id="todo-template" type="text/x-handlebars-template">
 {{#this}}
 <li {{#if completed}}class="completed"{{/if}} data-id="{{id}}">

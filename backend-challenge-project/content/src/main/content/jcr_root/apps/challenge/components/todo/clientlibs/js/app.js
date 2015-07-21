@@ -8,8 +8,8 @@ jQuery(function ($) {
 
 	var ENTER_KEY = 13;
 	var ESCAPE_KEY = 27;
-
-	var util = {
+	
+	var util = {			
 		uuid: function () {
 			/*jshint bitwise:false */
 			var i, random;
@@ -37,7 +37,6 @@ jQuery(function ($) {
 			}
 		}
 	};
-
 	var App = {
 		init: function () {
 			this.todos = util.store('todos-jquery');
@@ -50,6 +49,36 @@ jQuery(function ($) {
 					this.render();
 				}.bind(this)
 			}).init('/all');
+			
+			/*var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?tags=dogs&tagmode=any&format=json&jsoncallback=?";
+			
+			function getval( callback) {
+				var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?tags=dogs&tagmode=any&format=json&jsoncallback=?";
+
+				$.ajaxSetup({
+					async: false
+				});
+				
+			    $.getJSON(flickerAPI)
+				.done(function(data) {
+					callback(data);
+				});
+			}
+			
+			function createTask(data) {
+				$.each( data.items, function( i, item ) {
+					//lista.add(item.title + " - " + item.author);
+					$("<input>").attr("class", "task").attr("hidden", "true").attr("value", item.title + " - " + item.author).appendTo(".service");
+			        if ( i === 20 ) {
+			          return false;
+			        }
+			     });
+			}
+			
+			getval(createTask);
+			*/
+			
+			this.render();
 		},
 		cacheElements: function () {
 			this.todoTemplate = Handlebars.compile($('#todo-template').html());
