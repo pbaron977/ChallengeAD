@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-19T09:01:24.050-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Training Design"
+        sling:resourceType="wcm/core/components/designer">
+        <page-content jcr:primaryType="nt:unstructured">
+            <logo
+                jcr:lastModified="{Date}2015-07-15T14:28:39.111-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/logo"
+                imageRotate="0">
+                <file/>
+            </logo>
+            <content
+                jcr:lastModified="{Date}2015-07-19T09:01:24.034-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[/apps/geometrixx-outdoors/components/account_item,/libs/foundation/components/carousel,/libs/foundation/components/chart,/libs/foundation/components/image,/libs/foundation/components/list,/apps/geometrixx/components/list,/libs/wcm/foundation/components/list,/libs/wcm/foundation/components/textimage,/libs/wcm/foundation/components/text,/libs/fd/af/components/guidetermsandconditions,/apps/myproject/components/todo,/apps/extjstraining/components/dynamicdialogs]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </content>
+            <topToolbar
+                jcr:lastModified="{Date}2015-07-15T16:12:33.864-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/toolbar"
+                list="true"
+                toolbar="top"/>
+            <bottomToolbar
+                jcr:lastModified="{Date}2015-07-16T10:05:31.735-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/toolbar"
+                absParent="3"
+                list="true"
+                toolbar="bottom"/>
+            <sidebar
+                jcr:lastModified="{Date}2015-07-15T16:21:10.300-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/iparsys"
+                components="/libs/foundation/components/text">
+                <section jcr:primaryType="nt:unstructured"/>
+            </sidebar>
+            <header jcr:primaryType="nt:unstructured">
+                <topToolbar
+                    jcr:lastModified="{Date}2015-07-16T08:22:01.807-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/toolbar"
+                    absParent="3"
+                    list="true"
+                    toolbar="top"/>
+                <logo jcr:primaryType="nt:unstructured">
+                    <file.sftmp/>
+                </logo>
+            </header>
+        </page-content>
+    </jcr:content>
+    <images/>
+    <static.css/>
+</jcr:root>

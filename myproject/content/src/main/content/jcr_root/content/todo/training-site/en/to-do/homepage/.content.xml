@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-15T14:46:12.193-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/myproject/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Homepage"
+        sling:resourceType="myproject/components/page/page-content">
+        <title
+            jcr:lastModified="{Date}2015-07-15T11:35:35.177-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/training-title"
+            custom-title="HomePage"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <list
+                jcr:created="{Date}2015-07-15T14:40:45.493-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-15T14:41:28.838-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/list"
+                listFrom="static"
+                pages="[Shopping,Cleaning room,Watching TV]"
+                tagsMatch="any"/>
+            <list_0
+                jcr:created="{Date}2015-07-15T14:41:48.830-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-15T14:42:30.619-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/list"
+                displayAs="news"
+                limit="3"
+                listFrom="static"
+                orderBy="jcr:title"
+                pageMax="5"
+                pages="[Cleaning,Watching TV]"
+                tagsMatch="any"/>
+        </content>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,11 @@
+<div data-sly-use.header="header.js" >
+	<div class="body_header header container_16" style="background:${header.bgcolor @ context='styleToken'};">
+    	<div class="header_logo grid_8" data-sly-resource="${'logo' @ resourceType='myproject/components/logo'}"></div>
+		<div class="header_topnav grid_8 search_area"> 
+              <div class="header_toptool toptoolbar" 
+              data-sly-resource="${'topToolbar' @ resourceType='foundation/components/toolbar'}"></div>
+    	</div>
+        <div class="content_topnav toptoolbar toolbar" 
+             data-sly-resource="${'topnav' @ resourceType='myproject/components/topnav'}"></div>
+    </div>
+</div>

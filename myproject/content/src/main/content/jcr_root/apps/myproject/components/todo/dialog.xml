@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="{Long}450"
+    title="To Do Component"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="General">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <placeholder
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="What needs to be done ?"
+                        fieldDescription="Provides text for placeholder"
+                        fieldLabel="Placeholder text"
+                        name="./placeholder"
+                        xtype="textfield"/>
+                    <left
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="item left"
+                        fieldDescription="Provides the label for items left"
+                        fieldLabel="Label for Items left"
+                        name="./itemsleft"
+                        xtype="textfield"/>
+                    <clear
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Clear completed"
+                        fieldDescription="Provides text for Clear Completed CTA label"
+                        fieldLabel="Clear Completed CTA label"
+                        name="./clearlabel"
+                        xtype="textfield"/>
+                    <statusall
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="All"
+                        fieldDescription="Provides text for Status &quot;All&quot; label"
+                        fieldLabel="Show all label"
+                        name="./statusall"
+                        xtype="textfield"/>
+                    <statusactive
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Active"
+                        fieldDescription="Provides text for Status &quot;Active&quot; label"
+                        fieldLabel="Show active label"
+                        name="./statusactive"
+                        xtype="textfield"/>
+                    <statuscompleted
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Completed"
+                        fieldDescription="Provides text for Status &quot;Completed&quot; label"
+                        fieldLabel="Show Completed label"
+                        name="./statuscompleted"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Service">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <selection
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="fs1"
+                        fieldLabel="choose field to show"
+                        name="./tf"
+                        type="select"
+                        value="fs1"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <option1
+                                jcr:primaryType="nt:unstructured"
+                                text="Husband's House Cleaning List"
+                                value="fs1"/>
+                            <option2
+                                jcr:primaryType="nt:unstructured"
+                                text="The Movie Database (TMDb)"
+                                value="fs2"/>
+                            <option3
+                                jcr:primaryType="nt:unstructured"
+                                text="The Open Weather Service"
+                                value="fs3"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field, rec, path){Toogle.manageFields(field);}"
+                            selectionchanged="function(field, rec, path){Toogle.manageFields(field);}"/>
+                    </selection>
+                    <fs2
+                        jcr:primaryType="cq:Widget"
+                        hidden="{Boolean}true"
+                        itemId="fs2"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <text1
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                blankText="Keyword(s) of the movie title to search. This field is required"
+                                defaultValue="Titanic"
+                                fieldDescription="Search your favorite movie by title"
+                                fieldLabel="Movie Title"
+                                name="./tmdbQueryParam"
+                                value="Titanic"
+                                xtype="textfield"/>
+                        </items>
+                    </fs2>
+                    <fs3
+                        jcr:primaryType="cq:Widget"
+                        hidden="{Boolean}true"
+                        itemId="fs3"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <text1
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                blankText="City Name is required"
+                                defaultValue="London"
+                                fieldDescription="Next 5 day forecasts by city"
+                                fieldLabel="City Name"
+                                name="./weatherQueryParam"
+                                value="London"
+                                xtype="textfield"/>
+                        </items>
+                    </fs3>
+                </items>
+            </tab2>
+        </items>
+    </items>
+    <cq:editConfig
+        cq:dialogMode="floating"
+        jcr:primaryType="cq:EditConfig"/>
+</jcr:root>

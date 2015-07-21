@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="{Long}200"
+    title="Challenge Header Dialog"
+    width="{Long}400"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="General">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <backgroundColor
+                        jcr:primaryType="cq:Widget"
+                        colors="[FFFFFF&#xa;,F8F8F8&#xa;,F0F0F0&#xa;,E8E8E8&#xa;,E0E0E0&#xa;,D8D8D8&#xa;,D0D0D0&#xa;,C8C8C8&#xa;,C0C0C0&#xa;,B8B8B8&#xa;,B0B0B0&#xa;,A8A8A8&#xa;,A0A0A0,A8FFFF,E6F7F1,E9E6F7,F7E6EC,F5F7E6,E1E6F5,F5E1F0,E1F5E6,F5F0E1]"
+                        fieldLabel="Background color"
+                        name="./bgColor"
+                        showHexValue="false"
+                        xtype="colorfield"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

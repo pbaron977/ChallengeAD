@@ -1,0 +1,4 @@
+<ul class="topnav" data-sly-use.topnav="topnav.js" data-sly-use.topnav2="topnav2.js" style="background:${topnav2.bgcolor @ context='styleToken'};" data-sly-list="${topnav.root.listChildren}">
+	<li><a data-sly-use.topnav2="topnav2.js" href="${item.path}.html" 
+           style="color:${topnav2.textcolor @ context='styleToken'};">${item.title}</a></li> 
+</ul>

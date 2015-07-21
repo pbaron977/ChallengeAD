@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-07-17T08:41:20.793-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/myproject/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="To Do"
+        sling:resourceType="myproject/components/page/page-content">
+        <sidebar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys"/>
+        <title
+            jcr:lastModified="{Date}2015-07-16T19:49:17.643-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/training-title"
+            bgColor="003300"
+            custom-title="To Do"/>
+        <header
+            jcr:lastModified="{Date}2015-07-16T18:06:56.223-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/header"
+            bgColor="FFFFFF">
+            <topnav
+                jcr:lastModified="{Date}2015-07-16T18:07:03.904-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/topnav"
+                toolbarbgcolor="993300"
+                toolbarcolortext="FFFFFF"/>
+        </header>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <todo
+                jcr:created="{Date}2015-07-16T13:47:48.583-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-07-17T08:41:20.788-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/todo"
+                clearlabel="Clear Completed"
+                custom-title="fffff"
+                itemsleft="item(s) left"
+                placeholder="What's your next task ?"
+                statusactive="Active"
+                statusall="All"
+                statuscompleted="Completed"/>
+        </content>
+    </jcr:content>
+    <about/>
+    <history/>
+    <homepage/>
+</jcr:root>
