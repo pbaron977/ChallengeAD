@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <dev/>
+    <jcr:content
+        cq:lastModified="{Date}2015-07-20T04:48:38.277Z"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured">
+        <contentpage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2015-07-20T04:48:38.272Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/challenge-1/components/body,/apps/challenge-1/components/footer,/apps/challenge-1/components/header]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+        </contentpage>
+    </jcr:content>
 </jcr:root>

@@ -9,14 +9,15 @@
         <items jcr:primaryType="cq:WidgetCollection">
             <tab1
                 jcr:primaryType="cq:Panel"
-                title="Content">
+                border="true"
+                title="Page Style">
                 <items jcr:primaryType="cq:WidgetCollection">
-                    <footer-text
+                    <background-color
                         jcr:primaryType="cq:Widget"
-                        fieldDescription="Here is the text of the footer"
-                        fieldLabel="FooterText"
-                        name="./title"
-                        xtype="textfield"/>
+                        fieldDescription="Choose background color of page"
+                        fieldLabel="Background color"
+                        name="./backgroundColor"
+                        xtype="colorfield"/>
                 </items>
             </tab1>
         </items>

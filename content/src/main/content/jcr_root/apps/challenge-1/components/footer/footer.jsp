@@ -2,6 +2,7 @@
 <%@page session="false" %>
 <cq:include script="scripts.jsp"/>
 
+
 <div class="contentFooter header-footer">
     <c:choose>
         <c:when test="${properties.title eq null}">

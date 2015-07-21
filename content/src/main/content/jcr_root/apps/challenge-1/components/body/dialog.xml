@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Dialog"
     title="Dialog"
     xtype="dialog">
@@ -7,7 +7,7 @@
         jcr:primaryType="cq:Widget"
         xtype="tabpanel">
         <items jcr:primaryType="cq:WidgetCollection">
-            <prop1
+            <content
                 jcr:primaryType="cq:Panel"
                 title="Content">
                 <items jcr:primaryType="cq:WidgetCollection">
@@ -28,22 +28,55 @@
                         fieldDescription="Enable pagination of todo list"
                         fieldLabel="Enable pagination:"
                         name="./enablePagination"
-                        xtype="checkbox"/>
+                        type="checkbox"
+                        value="pagination"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field,rec,path){showTab(field);}"
+                            selectionchanged="function(comp, val, isChecked) {showTabPanel(comp, val, isChecked);}"
+                            value="pagination"/>
+                    </enablePagination>
                 </items>
-            </prop1>
-            <tab1
+            </content>
+            <pagination
                 jcr:primaryType="cq:Panel"
-                border="true"
-                title="Page Style">
+                itemId="pagination"
+                title="Pagination">
                 <items jcr:primaryType="cq:WidgetCollection">
-                    <background-color
+                    <tasksPerPage
                         jcr:primaryType="cq:Widget"
-                        fieldDescription="Choose background color of page"
-                        fieldLabel="Background color"
-                        name="./backgroundColor"
-                        xtype="colorfield"/>
+                        fieldDescription="Number of todo task per page"
+                        fieldLabel="Task per page:"
+                        name="./tasksPerPage"
+                        xtype="textfield"/>
+                    <limitTasks
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Choose if you want to limit number of todo tasks"
+                        fieldLabel="Limit max number of tasks:"
+                        name="./limitMaxNumberTasks"
+                        type="checkbox"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(comp, val, isChecked) {&#xa;    var dlg = comp.findParentByType(&quot;dialog&quot;);&#xa;    var textfield = dlg.getField(&quot;./maxNumberTasks&quot;);&#xa;    isChecked ? textfield.enable() : textfield.disable(); &#xa;}"/>
+                    </limitTasks>
+                    <maxNumberTasks
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Set max number of tasks in page"
+                        fieldLabel="Max number of tasks:"
+                        name="./maxNumberTasks"
+                        xtype="textfield">
+                        <listeners jcr:primaryType="nt:unstructured"/>
+                    </maxNumberTasks>
                 </items>
-            </tab1>
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    render="function(tab){hideTab(tab);}"/>
+            </pagination>
         </items>
     </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        beforeshow="function(dialog){manageTabs(dialog.items.get(0));}"/>
 </jcr:root>

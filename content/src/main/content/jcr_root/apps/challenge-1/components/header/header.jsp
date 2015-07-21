@@ -2,7 +2,6 @@
 <%@page session="false" %>
 <cq:include script="style.jsp"/>
 
-
 <div class="contentHeader header-footer" style="${properties.fontSize}">
     <h1>
         <c:choose>

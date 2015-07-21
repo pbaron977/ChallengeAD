@@ -1,0 +1,50 @@
+<!--/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2014 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+
+  Defines list item templates
+*/-->
+<template data-sly-template.default="${@ renderItem}">
+<p>
+    <a href="${renderItem.item.path}.html" title="${renderItem.itemName}"
+        onclick="CQ_Analytics.record({event: 'listItemClicked', values: { listItemPath: '${renderItem.item.path @ context='scriptString'}' }, collect:  false, options: { obj: this }, componentPath: '${resource.resourceType @ context='scriptString'}'})">${renderItem.itemName}</a>
+</p>
+</template>
+<template data-sly-template.news="${@ renderItem}">
+<p>
+    <a href="${renderItem.item.path}.html" title="${renderItem.itemName}"
+        onclick="CQ_Analytics.record({event: 'listNewsItemClicked', values: { listItemPath: '${renderItem.item.path @ context='scriptString'}' }, collect:  false, options: { obj: this }, componentPath: '${resource.resourceType @ context='scriptString'}'})">
+        <span data-sly-test="${renderItem.modifdate}" class="news-date">${renderItem.modifdate}:&nbsp;</span>
+        <span class="news-title">${renderItem.itemName}</span></a>
+        <div data-sly-test="${renderItem.item.description}" data-sly-unwrap>
+            <br/>
+            <span class="news-description">${renderItem.item.description}</span>
+        </div>
+</p>
+</template>
+<template data-sly-template.teaser="${@ renderItem}">
+<p>
+    <a href="${renderItem.item.path}.html" title="${renderItem.itemName}"
+            onclick="CQ_Analytics.record({event: 'listTeaserItemClicked', values: { listItemPath: '${renderItem.item.path @ context='scriptString'}' }, collect:  false, options: { obj: this }, componentPath: '${resource.resourceType @ context='scriptString'}'})">
+        <img data-sly-test="${renderItem.hasimage}" class="teaser" src="${renderItem.item.path}/jcr:content.thumbnail.48.48.jpg" alt="${renderItem.itemName}" title="${renderItem.itemName}"/>
+        <span class="teaser-title">${renderItem.itemName}</span>
+    </a>
+    <div data-sly-test="${renderItem.item.description}" data-sly-unwrap>
+        <br/>
+        <span class="teaser-description">${renderItem.item.description}</span>
+    </div>
+</p>
+</template>

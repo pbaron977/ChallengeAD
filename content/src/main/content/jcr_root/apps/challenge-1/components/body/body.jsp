@@ -1,14 +1,13 @@
-<%@include file="/libs/foundation/global.jsp"%>
+<%@include file="/libs/foundation/global.jsp" %>
 <%@page session="false" %>
-
-<style>
-    body{
-        background-color: ${properties.backgroundColor};
-    }
-</style>
 
 <script>
     var textLeft = '${properties.itemsLetfLabel}';
+
+    $(document).ready(function () {
+        pagination = ${properties.tasksPerPage};
+        maxItemsPage = ${properties.maxNumberTasks};
+    });
 </script>
 
 <div id="todoapp">
@@ -16,18 +15,19 @@
         <input id="new-todo" type="text" placeholder="${properties.placeholderText}">
     </header>
     <section id="main">
-        <ul id="todo-list">
+        <ul class="pagination1">
         </ul>
     </section>
     <section id="controls">
         <span id="total">
-
         </span>
-        <button>All</button>
-        <button>Active</button>
-        <button>Completed</button>
+
+        <button id="btnAll" class="button">All</button>
+        <button id="btnActive" class="button">Active</button>
+        <button id="btnCompleted" class="button">Completed</button>
         <button id="btnClearCompleted">Clear Completed</button>
     </section>
+
 </div>
 
 
